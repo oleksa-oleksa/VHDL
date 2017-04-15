@@ -1,0 +1,11 @@
+# Reading C:/ENGINEERING/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project full_adder
+# Compile of fsm.vhd was successful with warnings.
+# Compile of shift_reg.vhd failed with 2 errors.
+# Compile of serial_adder.vhd failed with 4 errors.
+# 3 compiles, 2 failed with 6 errors.
+# Compile of shift_reg.vhd failed with 2 errors.
+# Compile of fsm.vhd was successful with warnings.
+# Compile of shift_reg.vhd failed with 2 errors.
+# Compile of serial_adder.vhd failed with 4 errors.
+# 3 compiles, 2 failed with 6 errors.

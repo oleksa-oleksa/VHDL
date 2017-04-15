@@ -24,9 +24,9 @@ VS:33<djK5_2IL16K1ncnA0
 !s100 `V=`?U6io]mZTVablfX8o0
 Z9 OV;C;10.5b;63
 32
-Z10 !s110 1492281532
+Z10 !s110 1492285828
 !i10b 1
-Z11 !s108 1492281532.000000
+Z11 !s108 1492285828.000000
 Z12 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/modelSim_intro/fsm.vhd|
 Z13 !s107 C:/ENGINEERING/VHDL/modelSim_intro/fsm.vhd|
 !i113 1
@@ -93,56 +93,56 @@ R23
 R14
 R15
 Eserial
-Z24 w1492281528
+Z24 w1492285825
 R4
 R5
 R6
 Z25 8C:/ENGINEERING/VHDL/modelSim_intro/serial_adder.vhd
 Z26 FC:/ENGINEERING/VHDL/modelSim_intro/serial_adder.vhd
 l0
-L14
-VK?KS<N@SozUA]=IbOg`N]1
-!s100 bWKD??MK9ScMb557D510T2
+L11
+VGHZFg2?NWbcnPTQdlhzVA0
+!s100 1]N63W8J@^HLbP7=HC]_f2
 R9
 32
-R10
+Z27 !s110 1492285829
 !i10b 1
 R11
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/modelSim_intro/serial_adder.vhd|
-Z28 !s107 C:/ENGINEERING/VHDL/modelSim_intro/serial_adder.vhd|
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/modelSim_intro/serial_adder.vhd|
+Z29 !s107 C:/ENGINEERING/VHDL/modelSim_intro/serial_adder.vhd|
 !i113 1
 R14
 R15
 Abehaviour
-Z29 DEx4 work 9 shift_reg 0 22 9cT0K^L[bdCL6XMNKnH_50
+Z30 DEx4 work 9 shift_reg 0 22 9cT0K^L[bdCL6XMNKnH_50
 R1
 R2
 R3
 R16
 R4
 R5
-DEx4 work 6 serial 0 22 K?KS<N@SozUA]=IbOg`N]1
-l46
-L25
-Vz8OejUcPQCdZBdQozAHl13
-!s100 SGPb?63d^b4<GfYiVOLmn1
+DEx4 work 6 serial 0 22 GHZFg2?NWbcnPTQdlhzVA0
+l43
+L22
+V3fFR>XdJ7dl@Z?1BzE=B43
+!s100 kCW0m6XIZR:iPQSW>?Go?0
 R9
 32
-R10
+R27
 !i10b 1
 R11
-R27
 R28
+R29
 !i113 1
 R14
 R15
 Eshift_reg
-Z30 w1492280665
+Z31 w1492280665
 R4
 R5
 R6
-Z31 8C:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd
-Z32 FC:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd
+Z32 8C:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd
+Z33 FC:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd
 l0
 L4
 V9cT0K^L[bdCL6XMNKnH_50
@@ -152,15 +152,15 @@ R9
 R10
 !i10b 1
 R11
-Z33 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd|
-Z34 !s107 C:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd|
+Z34 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd|
+Z35 !s107 C:/ENGINEERING/VHDL/modelSim_intro/shift_reg.vhd|
 !i113 1
 R14
 R15
 Abehaviour
 R4
 R5
-R29
+R30
 l20
 L19
 V^IP1DiII_F9NYmZX1Lf_H3
@@ -170,8 +170,8 @@ R9
 R10
 !i10b 1
 R11
-R33
 R34
+R35
 !i113 1
 R14
 R15

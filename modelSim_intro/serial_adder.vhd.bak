@@ -1,9 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-
-
-
 -- This is a serial adder from Intel Tutorium for Altera
 -- downto corresponds to little endian. This means that the least significant bit 
 -- is stored at the lowest position. 
@@ -74,8 +71,8 @@ ARCHITECTURE Behaviour OF serial IS
  bit_carry <= (A_reg(0) AND B_reg(0)) OR (A_reg(0) AND cin) OR (B_reg(0) AND cin); 
  bit_sum <= A_reg(0) XOR B_reg(0) XOR cin;
 
- reg_sum :shift_reg
+ reg_sum : entity work.shift_reg
  GENERIC MAP(9)
- PORT MAP(clock, reset, B"000000000", bit_sum, enable, '0', sum);
+ PORT MAP(clock, resetn, B"000000000", bit_sum, enable, '0', sum);
 
 END Behaviour;

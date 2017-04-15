@@ -1,9 +1,6 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
-
-
-
 -- This is a serial adder from Intel Tutorium for Altera
 -- downto corresponds to little endian. This means that the least significant bit 
 -- is stored at the lowest position. 

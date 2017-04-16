@@ -1,0 +1,14 @@
+# Reading C:/ENGINEERING/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project parallel_adder
+# Compile of parallel_adder_2bit_component.vhd failed with 1 errors.
+# Compile of halfAdder.vhd failed with 3 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of parallel_adder_2bit_component.vhd failed with 1 errors.
+# Compile of halfAdder.vhd failed with 3 errors.
+# 2 compiles, 2 failed with 4 errors.
+# Compile of parallel_adder_2bit_component.vhd failed with 1 errors.
+# Compile of halfAdder.vhd failed with 1 errors.
+# 2 compiles, 2 failed with 2 errors.
+# Compile of parallel_adder_2bit_component.vhd failed with 1 errors.
+# Compile of halfAdder.vhd failed with 17 errors.
+# 2 compiles, 2 failed with 18 errors.

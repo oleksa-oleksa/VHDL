@@ -8,27 +8,66 @@ z2
 !i10f 100
 cModel Technology
 dC:/ENGINEERING/VHDL/modelSim_intro
-Ehalfadder
-Z0 w1492339131
+Ecomparator3bit
+Z0 w1492363050
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/ENGINEERING/VHDL/Code_for_WS11
-Z4 8C:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd
-Z5 FC:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd
+Z4 8C:/ENGINEERING/VHDL/Code_for_WS11/comparator_3bit.vhd
+Z5 FC:/ENGINEERING/VHDL/Code_for_WS11/comparator_3bit.vhd
+l0
+L4
+Vch_NJ4aKzR1GZNjfoL9cX0
+!s100 IiS<C]zb@6I[bKWiHM@YR2
+Z6 OV;C;10.5b;63
+33
+Z7 !s110 1492363054
+!i10b 1
+Z8 !s108 1492363054.000000
+Z9 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/comparator_3bit.vhd|
+Z10 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/comparator_3bit.vhd|
+!i113 1
+Z11 o-work work -2008 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Acompare3bit
+R1
+R2
+Z13 DEx4 work 14 comparator3bit 0 22 ch_NJ4aKzR1GZNjfoL9cX0
+l13
+L12
+V_jjJ9=k00iLe1dm>P6abI3
+!s100 Nzl^BU19G>alT9WSH]C_>2
+R6
+33
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Ehalfadder
+Z14 w1492339131
+R1
+R2
+R3
+Z15 8C:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd
+Z16 FC:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd
 l0
 L4
 Vm4R1bD4GSHSN?US3C5jPe1
 !s100 SRIDlGjB;Bf@gI`2njKf31
-Z6 OV;C;10.5b;63
+R6
 32
-Z7 !s110 1492350137
+Z17 !s110 1492363053
 !i10b 1
-Z8 !s108 1492350137.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd|
-Z10 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd|
+Z18 !s108 1492363053.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd|
+Z20 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/halfAdder.vhd|
 !i113 1
-Z11 o-work work -2002 -explicit
-Z12 tExplicit 1 CvgOpt 0
+Z21 o-work work -2002 -explicit
+R12
 Aadd
 R1
 R2
@@ -39,60 +78,60 @@ Vkj>QU;kWZKm2@:NU=zDoS0
 !s100 ]73O?57DNh^3igV9aK[@23
 R6
 32
-R7
+R17
 !i10b 1
-R8
-R9
-R10
+R18
+R19
+R20
 !i113 1
-R11
+R21
 R12
 Ehalfaddernand
-Z13 w1492350131
+Z22 w1492350131
 R1
 R2
 R3
-Z14 8C:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd
-Z15 FC:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd
+Z23 8C:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd
+Z24 FC:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd
 l0
 L4
 VjQF73JInaCb[CSR4MnTO50
 !s100 _`E]khI8_@J1f6TaI<2B52
 R6
 32
-Z16 !s110 1492350138
+R7
 !i10b 1
-Z17 !s108 1492350138.000000
-Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd|
-Z19 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd|
+R8
+Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd|
+Z26 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/halfAdderNAND.vhd|
 !i113 1
-R11
+R21
 R12
 Aadd
 R1
 R2
-Z20 DEx4 work 13 halfaddernand 0 22 jQF73JInaCb[CSR4MnTO50
+DEx4 work 13 halfaddernand 0 22 jQF73JInaCb[CSR4MnTO50
 l11
 L10
 VWLG`:_dj0i0lG0koczoS?0
 !s100 jhUMXO^mS5zTRGX=MD=LI1
 R6
 32
-R16
+R7
 !i10b 1
-R17
-R18
-R19
+R8
+R25
+R26
 !i113 1
-R11
+R21
 R12
 Eparalleladder
-Z21 w1492341448
+Z27 w1492357802
 R1
 R2
 R3
-Z22 8C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd
-Z23 FC:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd
+Z28 8C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd
+Z29 FC:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd
 l0
 L11
 VYceoGoi=2eQ?hemMAFf>52
@@ -101,11 +140,11 @@ R6
 32
 R7
 !i10b 1
-R8
-Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd|
-Z25 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd|
+R18
+Z30 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd|
+Z31 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_component.vhd|
 !i113 1
-R11
+R21
 R12
 Astructure
 R1
@@ -119,19 +158,19 @@ R6
 32
 R7
 !i10b 1
-R8
-R24
-R25
+R18
+R30
+R31
 !i113 1
-R11
+R21
 R12
 Eparalleladdervector
-Z26 w1492349323
+Z32 w1492357808
 R1
 R2
 R3
-Z27 8C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd
-Z28 FC:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd
+Z33 8C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd
+Z34 FC:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd
 l0
 L12
 V[S7hD8>BBeEARelNe0aK[2
@@ -141,10 +180,10 @@ R6
 R7
 !i10b 1
 R8
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd|
-Z30 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd|
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd|
+Z36 !s107 C:/ENGINEERING/VHDL/Code_for_WS11/parallel_adder_2bit_vector.vhd|
 !i113 1
-R11
+R21
 R12
 Astructure
 R1
@@ -159,8 +198,8 @@ R6
 R7
 !i10b 1
 R8
-R29
-R30
+R35
+R36
 !i113 1
-R11
+R21
 R12

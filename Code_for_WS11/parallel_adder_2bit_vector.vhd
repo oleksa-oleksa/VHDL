@@ -1,7 +1,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
--- It is an old lab task from WS 2011-2012 an Beuth Hochshule Berlin
+-- It is an old lab task from WS 2011-2012 an Beuth Hochschule Berlin
 -- Code using Vector
 
 -- Write by Oleksandra Baga, 16.04.2017.

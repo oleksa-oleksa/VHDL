@@ -1,0 +1,6 @@
+view wave 
+wave clipboard store
+wave create -driver freeze -pattern clock -initialvalue U -period 200ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/rsff_nand/nS 
+wave create -driver freeze -pattern clock -initialvalue U -period 100ps -dutycycle 50 -starttime 0ps -endtime 1000ps sim:/rsff_nand/nR 
+WaveCollapseAll -1
+wave clipboard restore

@@ -1,0 +1,25 @@
+C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rsff_nand
+-- Compiling architecture nRS_FF of rsff_nand
+
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity rsff_nor
+-- Compiling architecture rs_ff_nor of rsff_nor
+
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/d_latch.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/d_latch.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dLatch
+-- Compiling architecture dLatch_Struct of dLatch
+
+} {} {}}

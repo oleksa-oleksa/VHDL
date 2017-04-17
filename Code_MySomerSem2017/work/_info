@@ -1,0 +1,166 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ENGINEERING/VHDL/Code_for_WS11
+Edff
+Z0 w1492434948
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/ENGINEERING/VHDL/Code_MySomerSem2017
+Z4 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/dff.vhd
+Z5 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/dff.vhd
+l0
+L7
+Vgekn8VT[0TU9a7m3nb=MO2
+!s100 FH6YFmeVUdWn^WSmb<?nK3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1492434952
+!i10b 1
+Z8 !s108 1492434952.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/dff.vhd|
+Z10 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/dff.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Adff_struct
+R1
+R2
+Z13 DEx4 work 3 dff 0 22 gekn8VT[0TU9a7m3nb=MO2
+l25
+L15
+VZ__8^WnVb^>TK1LPV_imO3
+!s100 ;IloHbG`Kjb8Qb[ngl6N02
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Edlatch
+Z14 w1492433859
+R1
+R2
+R3
+R4
+R5
+l0
+L7
+Va4KR[:A2Cg>3gkUhIl4623
+!s100 MR=`B<aU?zHi2o]ko`:4c3
+R6
+32
+Z15 !s110 1492434097
+!i10b 1
+Z16 !s108 1492434097.000000
+R9
+R10
+!i113 1
+R11
+R12
+Adlatch_struct
+R1
+R2
+DEx4 work 6 dlatch 0 22 a4KR[:A2Cg>3gkUhIl4623
+l25
+L15
+V2KalHoVhoLzmfEec2OhDU1
+!s100 KX6]BLbNX^c2ijY1:EGc21
+R6
+32
+R15
+!i10b 1
+R16
+R9
+R10
+!i113 1
+R11
+R12
+Ersff_nand
+Z17 w1492429295
+R1
+R2
+R3
+Z18 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
+Z19 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
+l0
+L6
+V29[1z1TPjzEc4?SV?Q<OC0
+!s100 ]0S[Tz_A6b397>6fbbT6Q2
+R6
+32
+Z20 !s110 1492434096
+!i10b 1
+Z21 !s108 1492434096.000000
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd|
+Z23 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd|
+!i113 1
+R11
+R12
+Anrs_ff
+R1
+R2
+DEx4 work 9 rsff_nand 0 22 29[1z1TPjzEc4?SV?Q<OC0
+l16
+L13
+V;ajP?D<V9ezG3B3jbP;5B2
+!s100 Dc>WgIfhQaNj0X`gh8F_80
+R6
+32
+R20
+!i10b 1
+R21
+R22
+R23
+!i113 1
+R11
+R12
+Ersff_nor
+Z24 w1492434123
+R1
+R2
+R3
+Z25 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
+Z26 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
+l0
+L4
+VZ>Y]3G^7PmSL7a8nDF6OB1
+!s100 EQ:o0YiC4CbJ`335?08<C3
+R6
+32
+Z27 !s110 1492434127
+!i10b 1
+Z28 !s108 1492434127.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd|
+Z30 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd|
+!i113 1
+R11
+R12
+Ars_ff_nor
+R1
+R2
+DEx4 work 8 rsff_nor 0 22 Z>Y]3G^7PmSL7a8nDF6OB1
+l15
+L11
+V_M<TSFdJYWDT3O2IBN@EG2
+!s100 09DIdQmH1g?Jj071a@dT53
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12

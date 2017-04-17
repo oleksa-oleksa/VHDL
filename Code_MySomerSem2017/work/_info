@@ -32,7 +32,7 @@ Z12 tExplicit 1 CvgOpt 0
 Adff_struct
 R1
 R2
-Z13 DEx4 work 3 dff 0 22 gekn8VT[0TU9a7m3nb=MO2
+DEx4 work 3 dff 0 22 gekn8VT[0TU9a7m3nb=MO2
 l25
 L15
 VZ__8^WnVb^>TK1LPV_imO3
@@ -48,7 +48,7 @@ R10
 R11
 R12
 Edlatch
-Z14 w1492433859
+Z13 w1492433859
 R1
 R2
 R3
@@ -60,9 +60,9 @@ Va4KR[:A2Cg>3gkUhIl4623
 !s100 MR=`B<aU?zHi2o]ko`:4c3
 R6
 32
-Z15 !s110 1492434097
+Z14 !s110 1492434097
 !i10b 1
-Z16 !s108 1492434097.000000
+Z15 !s108 1492434097.000000
 R9
 R10
 !i113 1
@@ -78,32 +78,149 @@ V2KalHoVhoLzmfEec2OhDU1
 !s100 KX6]BLbNX^c2ijY1:EGc21
 R6
 32
-R15
+R14
 !i10b 1
-R16
+R15
 R9
 R10
 !i113 1
 R11
 R12
-Ersff_nand
-Z17 w1492429295
+Emux2to1
+Z16 w1492440886
 R1
 R2
 R3
-Z18 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
-Z19 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
+Z17 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Mux2to1.vhd
+Z18 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Mux2to1.vhd
+l0
+L4
+VZ:kkY8:codCXCMm0W1^c41
+!s100 IG3A2WVN@U]JV;2LVRz?43
+R6
+33
+Z19 !s110 1492442375
+!i10b 1
+Z20 !s108 1492442375.000000
+Z21 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Mux2to1.vhd|
+Z22 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Mux2to1.vhd|
+!i113 1
+Z23 o-work work -2008 -explicit
+R12
+Amux
+R1
+R2
+DEx4 work 7 mux2to1 0 22 Z:kkY8:codCXCMm0W1^c41
+l12
+L10
+VgCo:3O`6^<@fSzXKYUBPP0
+!s100 WI6=DhzlJ^eQ;IAaZHAJK1
+R6
+33
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R23
+R12
+Eparitybiteven3bits
+Z24 w1492446169
+R1
+R2
+R3
+Z25 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd
+Z26 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd
+l0
+L4
+VF`k;9HKeg`7RX>e:3P[^c3
+!s100 :iZB3Q3[[;`_kiSZbSJnj0
+R6
+32
+Z27 !s110 1492446188
+!i10b 1
+Z28 !s108 1492446188.000000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd|
+Z30 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd|
+!i113 1
+R11
+R12
+Aeven
+R1
+R2
+Z31 DEx4 work 18 paritybiteven3bits 0 22 F`k;9HKeg`7RX>e:3P[^c3
+l14
+L11
+VGncDCzW5T?Pf>l>WnhafS1
+!s100 iYO4bkiKIR?`_V3R>;Efe0
+R6
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R11
+R12
+Eparitybitodd3bits
+Z32 w1492446156
+R1
+R2
+R3
+Z33 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd
+Z34 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd
+l0
+L4
+V;32>`IQ06mF@ZTR8OcYP62
+!s100 4c`hR4R[DjVn[_c_AHbW>0
+R6
+32
+R27
+!i10b 1
+Z35 !s108 1492446187.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd|
+Z37 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd|
+!i113 1
+R11
+R12
+Aodd
+R1
+R2
+DEx4 work 17 paritybitodd3bits 0 22 ;32>`IQ06mF@ZTR8OcYP62
+l14
+L11
+VY=87N2kmM;immZ4^i<[Um3
+!s100 j1MS^`Z0IlcPNEehjfGFh0
+R6
+32
+R27
+!i10b 1
+R35
+R36
+R37
+!i113 1
+R11
+R12
+Ersff_nand
+Z38 w1492429295
+R1
+R2
+R3
+Z39 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
+Z40 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd
 l0
 L6
 V29[1z1TPjzEc4?SV?Q<OC0
 !s100 ]0S[Tz_A6b397>6fbbT6Q2
 R6
 32
-Z20 !s110 1492434096
+Z41 !s110 1492434096
 !i10b 1
-Z21 !s108 1492434096.000000
-Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd|
-Z23 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd|
+Z42 !s108 1492434096.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd|
+Z44 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nand.vhd|
 !i113 1
 R11
 R12
@@ -117,32 +234,32 @@ V;ajP?D<V9ezG3B3jbP;5B2
 !s100 Dc>WgIfhQaNj0X`gh8F_80
 R6
 32
-R20
+R41
 !i10b 1
-R21
-R22
-R23
+R42
+R43
+R44
 !i113 1
 R11
 R12
 Ersff_nor
-Z24 w1492434123
+Z45 w1492434123
 R1
 R2
 R3
-Z25 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
-Z26 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
+Z46 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
+Z47 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd
 l0
 L4
 VZ>Y]3G^7PmSL7a8nDF6OB1
 !s100 EQ:o0YiC4CbJ`335?08<C3
 R6
 32
-Z27 !s110 1492434127
+Z48 !s110 1492434127
 !i10b 1
-Z28 !s108 1492434127.000000
-Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd|
-Z30 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd|
+Z49 !s108 1492434127.000000
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd|
+Z51 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/rsff_nor.vhd|
 !i113 1
 R11
 R12
@@ -156,11 +273,46 @@ V_M<TSFdJYWDT3O2IBN@EG2
 !s100 09DIdQmH1g?Jj071a@dT53
 R6
 32
-R27
+R48
 !i10b 1
-R28
-R29
-R30
+R49
+R50
+R51
+!i113 1
+R11
+R12
+Etb_mux2to1
+Z52 w1492442903
+R3
+Z53 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd
+Z54 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd
+l0
+L1
+VA2N?CU[nZgbadZjPah7Nz3
+!s100 `SA@[OF4BnR>IKFBIP7OL0
+R6
+32
+Z55 !s110 1492442912
+!i10b 1
+Z56 !s108 1492442912.000000
+Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd|
+Z58 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd|
+!i113 1
+R11
+R12
+Atestbench
+DEx4 work 10 tb_mux2to1 0 22 A2N?CU[nZgbadZjPah7Nz3
+l19
+L4
+VYAC7DM=2B7Thz0ZlOP5GQ1
+!s100 ZdYRlgVe4h718:@dSkjY<2
+R6
+32
+R55
+!i10b 1
+R56
+R57
+R58
 !i113 1
 R11
 R12

@@ -1,6 +1,7 @@
 LIBRARY ieee;
 USE ieee.std_logic_1164.all;
 
+-- parity for even amount od ones
 ENTITY parityBitEven3Bits IS
 PORT (
       X2, X1, X0 : IN BIT;

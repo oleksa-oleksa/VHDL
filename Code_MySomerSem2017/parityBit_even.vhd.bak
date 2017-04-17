@@ -3,7 +3,7 @@ USE ieee.std_logic_1164.all;
 
 ENTITY parityBitEven3Bits IS
 PORT (
-      X2, X1, X0 : IN BIT;
+      X3, X1, X0 : IN BIT;
       Dataword : OUT BIT_VECTOR(3 DOWNTO 0)
       );
 END parityBitEven3Bits;
@@ -18,6 +18,6 @@ xor1 <= X0 XOR X1;
 Dataword(1) <= X1;
 xor2 <= xor1 XOR X2;
 Dataword(2) <= X2;
-Dataword(3) <= xor2;
+Dataword(3) <= NOT xor2;
 
 END Even;

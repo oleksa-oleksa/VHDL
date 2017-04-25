@@ -126,21 +126,21 @@ R22
 R23
 R12
 Eparitybiteven3bits
-Z24 w1492446169
+Z24 w1492447061
 R1
 R2
 R3
 Z25 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd
 Z26 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd
 l0
-L4
-VF`k;9HKeg`7RX>e:3P[^c3
-!s100 :iZB3Q3[[;`_kiSZbSJnj0
+L5
+V63JnSNTj=i7ia8U]8MO`N2
+!s100 F6[6^X?dJjl8X;z33YgL60
 R6
 32
-Z27 !s110 1492446188
+Z27 !s110 1492948735
 !i10b 1
-Z28 !s108 1492446188.000000
+Z28 !s108 1492948735.000000
 Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd|
 Z30 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/parityBit_even.vhd|
 !i113 1
@@ -149,11 +149,11 @@ R12
 Aeven
 R1
 R2
-Z31 DEx4 work 18 paritybiteven3bits 0 22 F`k;9HKeg`7RX>e:3P[^c3
-l14
-L11
-VGncDCzW5T?Pf>l>WnhafS1
-!s100 iYO4bkiKIR?`_V3R>;Efe0
+DEx4 work 18 paritybiteven3bits 0 22 63JnSNTj=i7ia8U]8MO`N2
+l15
+L12
+VCkR3aCRgg^8_XOY47Q<n;0
+!s100 X9ZCR5BnAa@GMM[5Jn9I^3
 R6
 32
 R27
@@ -165,19 +165,19 @@ R30
 R11
 R12
 Eparitybitodd3bits
-Z32 w1492446156
+Z31 w1492446156
 R1
 R2
 R3
-Z33 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd
-Z34 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd
+Z32 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd
+Z33 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd
 l0
 L4
 V;32>`IQ06mF@ZTR8OcYP62
 !s100 4c`hR4R[DjVn[_c_AHbW>0
 R6
 32
-R27
+Z34 !s110 1492446188
 !i10b 1
 Z35 !s108 1492446187.000000
 Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/patityBit_odd.vhd|
@@ -195,7 +195,7 @@ VY=87N2kmM;immZ4^i<[Um3
 !s100 j1MS^`Z0IlcPNEehjfGFh0
 R6
 32
-R27
+R34
 !i10b 1
 R35
 R36

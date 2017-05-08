@@ -218,7 +218,7 @@ Resolution = ps
 UserTimeUnit = default
 
 ; Default run length
-RunLength = 1 ns
+RunLength = 200 ns
 
 ; Maximum iterations that can be run without advancing simulation time
 IterationLimit = 5000

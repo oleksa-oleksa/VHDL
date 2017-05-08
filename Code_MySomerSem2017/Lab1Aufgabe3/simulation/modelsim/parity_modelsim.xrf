@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, H:/DT_workDir/Lab1Aufgabe3/parity.vhd
+source_file = 1, H:/DT_workDir/Lab1Aufgabe3/tb_parity.vhd
+source_file = 1, c:/altera/14.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/altera/14.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/altera/14.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/altera/14.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, H:/DT_workDir/Lab1Aufgabe3/db/parity.cbx.xml
+design_name = parity
+instance = comp, \Dataword[0]~output\, Dataword[0]~output, parity, 1
+instance = comp, \Dataword[1]~output\, Dataword[1]~output, parity, 1
+instance = comp, \Dataword[2]~output\, Dataword[2]~output, parity, 1
+instance = comp, \Dataword[3]~output\, Dataword[3]~output, parity, 1
+instance = comp, \X0~input\, X0~input, parity, 1
+instance = comp, \X1~input\, X1~input, parity, 1
+instance = comp, \X2~input\, X2~input, parity, 1
+instance = comp, \xor2~0\, xor2~0, parity, 1

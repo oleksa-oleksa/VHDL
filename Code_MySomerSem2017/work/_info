@@ -99,9 +99,9 @@ VZ:kkY8:codCXCMm0W1^c41
 !s100 IG3A2WVN@U]JV;2LVRz?43
 R6
 33
-Z19 !s110 1492442375
+Z19 !s110 1493222625
 !i10b 1
-Z20 !s108 1492442375.000000
+Z20 !s108 1493222625.000000
 Z21 !s90 -reportprogress|300|-work|work|-2008|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Mux2to1.vhd|
 Z22 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Mux2to1.vhd|
 !i113 1
@@ -292,27 +292,27 @@ VA2N?CU[nZgbadZjPah7Nz3
 !s100 `SA@[OF4BnR>IKFBIP7OL0
 R6
 32
-Z55 !s110 1492442912
+R19
 !i10b 1
-Z56 !s108 1492442912.000000
-Z57 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd|
-Z58 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd|
+R20
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd|
+Z56 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/tb_Mux2to1.vhd|
 !i113 1
 R11
 R12
 Atestbench
-DEx4 work 10 tb_mux2to1 0 22 A2N?CU[nZgbadZjPah7Nz3
+Z57 DEx4 work 10 tb_mux2to1 0 22 A2N?CU[nZgbadZjPah7Nz3
 l19
 L4
-VYAC7DM=2B7Thz0ZlOP5GQ1
-!s100 ZdYRlgVe4h718:@dSkjY<2
+Z58 VYAC7DM=2B7Thz0ZlOP5GQ1
+Z59 !s100 ZdYRlgVe4h718:@dSkjY<2
 R6
 32
-R55
+R19
 !i10b 1
+R20
+R55
 R56
-R57
-R58
 !i113 1
 R11
 R12

@@ -1,0 +1,56 @@
+# Reading C:/altera/14.1/modelsim_ase/tcl/vsim/pref.tcl
+# do parity_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim PE vmap 10.3c Lib Mapping Utility 2014.09 Sep 20 2014
+# vmap -modelsim_quiet work rtl_work 
+# Copying C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera/14.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {H:/DT_workDir/Lab1Aufgabe3/parity.vhd}
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:11:29 on May 03,2017
+# vcom -reportprogress 300 -93 -work work H:/DT_workDir/Lab1Aufgabe3/parity.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity parity
+# -- Compiling architecture Odd of parity
+# End time: 17:11:30 on May 03,2017, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vcom -reportprogress 300 -work work H:/DT_workDir/Lab1Aufgabe3/tb_parity.vhd
+# Model Technology ModelSim ALTERA vcom 10.3c Compiler 2014.09 Sep 20 2014
+# Start time: 17:11:42 on May 03,2017
+# vcom -reportprogress 300 -work work H:/DT_workDir/Lab1Aufgabe3/tb_parity.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity tb_parity
+# -- Compiling architecture test of tb_parity
+# End time: 17:11:42 on May 03,2017, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.tb_parity
+# vsim -gui "+altera" -l msim_transcript -do "parity_run_msim_rtl_vhdl.do" 
+# Start time: 17:11:57 on May 03,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_parity(test)
+# Loading work.parity(odd)
+add wave -position end  sim:/tb_parity/X2
+add wave -position end  sim:/tb_parity/X1
+add wave -position end  sim:/tb_parity/X0
+add wave -position end  sim:/tb_parity/Dataword
+add wave -position end  sim:/tb_parity/Dataword(3)
+add wave -position end  sim:/tb_parity/Dataword(2)
+add wave -position end  sim:/tb_parity/Dataword(1)
+add wave -position end  sim:/tb_parity/Dataword(0)
+run -all
+# End time: 17:12:47 on May 03,2017, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 0

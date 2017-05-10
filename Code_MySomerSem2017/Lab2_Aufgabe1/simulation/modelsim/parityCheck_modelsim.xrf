@@ -1,0 +1,16 @@
+vendor_name = ModelSim
+source_file = 1, C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
+source_file = 1, C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/parityCheck.vhd
+source_file = 1, c:/engineering/quartus/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/engineering/quartus/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/engineering/quartus/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/engineering/quartus/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/db/parityCheck.cbx.xml
+design_name = hard_block
+design_name = parityCheck
+instance = comp, \isBrocken~output\, isBrocken~output, parityCheck, 1
+instance = comp, \Dataword[0]~input\, Dataword[0]~input, parityCheck, 1
+instance = comp, \Dataword[1]~input\, Dataword[1]~input, parityCheck, 1
+instance = comp, \Dataword[2]~input\, Dataword[2]~input, parityCheck, 1
+instance = comp, \Dataword[3]~input\, Dataword[3]~input, parityCheck, 1
+instance = comp, \isBrocken~0\, isBrocken~0, parityCheck, 1

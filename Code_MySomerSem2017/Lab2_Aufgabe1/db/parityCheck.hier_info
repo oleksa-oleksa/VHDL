@@ -1,0 +1,8 @@
+|parityCheck
+Dataword[0] => xor1.IN0
+Dataword[1] => xor1.IN1
+Dataword[2] => Parity.IN1
+Dataword[3] => isBrocken.IN1
+isBrocken <= isBrocken.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -7,35 +7,35 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/simulation/modelsim
+Z0 dH:/DT_workDir/Lab2_Aufgabe1/simulation/modelsim
 Eparitycheck
-Z1 w1494412057
+Z1 w1494412058
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 R0
-Z4 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/parityCheck.vhd
-Z5 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/parityCheck.vhd
+Z4 8H:/DT_workDir/Lab2_Aufgabe1/parityCheck.vhd
+Z5 FH:/DT_workDir/Lab2_Aufgabe1/parityCheck.vhd
 l0
 L4
-VUlhAi3zGBL3<:hhQ71eiG0
+V]fTl2jfEi>`hR4Ga6?H[H2
 !s100 ?<CEbO;2LPeFORg=1bJaU0
-Z6 OV;C;10.5b;63
+Z6 OV;C;10.3c;59
 31
-Z7 !s110 1494413040
+Z7 !s110 1494427035
 !i10b 1
-Z8 !s108 1494413040.000000
-Z9 !s90 -reportprogress|300|-93|-work|work|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/parityCheck.vhd|
-Z10 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/parityCheck.vhd|
+Z8 !s108 1494427035.348000
+Z9 !s90 -reportprogress|300|-93|-work|work|H:/DT_workDir/Lab2_Aufgabe1/parityCheck.vhd|
+Z10 !s107 H:/DT_workDir/Lab2_Aufgabe1/parityCheck.vhd|
 !i113 1
 Z11 o-93 -work work
-Z12 tExplicit 1 CvgOpt 0
+Z12 tExplicit 1
 Aevenparcheck
 R2
 R3
-DEx4 work 11 paritycheck 0 22 UlhAi3zGBL3<:hhQ71eiG0
+DEx4 work 11 paritycheck 0 22 ]fTl2jfEi>`hR4Ga6?H[H2
 l16
 L12
-V4_Je>6T>jcjEldilgEi^_0
+VFE=Q_MPAET^Lio_iC]mJD3
 !s100 [=LcF=4R_24cX[J5N_]JJ1
 R6
 31
@@ -46,43 +46,4 @@ R9
 R10
 !i113 1
 R11
-R12
-Etb_parity
-Z13 w1494414981
-R2
-R3
-R0
-Z14 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
-Z15 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
-l0
-L4
-Vdb:0O<JUgLfd8bgW4Tg_[1
-!s100 9o;W`m1X_<`7[L_SamX5W2
-R6
-32
-Z16 !s110 1494415129
-!i10b 1
-Z17 !s108 1494415129.000000
-Z18 !s90 -reportprogress|300|-work|work|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
-Z19 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
-!i113 1
-Z20 o-work work
-R12
-Atest
-R2
-R3
-DEx4 work 9 tb_parity 0 22 db:0O<JUgLfd8bgW4Tg_[1
-l31
-L7
-VPPVd6lLi5m<2jJADXBe;_2
-!s100 2B`[jV;9g[Yeh03n2N]c@3
-R6
-32
-R16
-!i10b 1
-R17
-R18
-R19
-!i113 1
-R20
 R12

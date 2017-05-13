@@ -43,11 +43,11 @@ begin
       isBrocken => isBrocken
     );
 
-
-X0 <= '0' after 0 ns, '1' after 40 ns, '0' after 80 ns, '1' after 120 ns, '0' after 160 ns, '1' after 200 ns, '0' after 240 ns, '1' after 280 ns, '0' after 320 ns;
-X1 <= '0' after 0 ns, '0' after 40 ns, '1' after 80 ns, '1' after 120 ns, '0' after 160 ns, '0' after 200 ns, '1' after 240 ns, '1' after 280 ns, '0' after 320 ns;
-X2 <= '0' after 0 ns, '1' after 40 ns, '0' after 80 ns, '0' after 120 ns, '1' after 160 ns, '0' after 200 ns, '1' after 240 ns, '0' after 280 ns, '0' after 320 ns;
-
-
+X0 <='0' after   0 ns, '1' after  40 ns, '0' after  80 ns, '1' after 120 ns, '0' after 160 ns,
+	  '1' after 200 ns, '0' after 240 ns, '1' after 280 ns, '0' after 320 ns, '1' after 360 ns;
+X1 <='0' after   0 ns, '0' after  40 ns, '1' after  80 ns, '1' after 120 ns, '0' after 160 ns, 
+     '0' after 200 ns, '1' after 240 ns, '1' after 280 ns, '0' after 320 ns, '1' after 360 ns;
+X2 <='0' after   0 ns, '0' after  40 ns, '0' after  80 ns, '0' after 120 ns, '1' after 160 ns,
+     '1' after 200 ns, '1' after 240 ns, '1' after 280 ns, '0' after 320 ns, '1' after 360 ns;
 
 end test;

@@ -5,5 +5,5 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
-vcom -93 -work work {C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/parityCheck.vhd}
+vcom -93 -work work {H:/DT_workDir/Lab2_Aufgabe1/parityCheck.vhd}
 

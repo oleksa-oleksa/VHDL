@@ -4,7 +4,7 @@ USE ieee.std_logic_1164.all;
 ENTITY tb_fflatch IS
 END tb_fflatch;
 
-ARCHITECTURE testbench of tb_fflatch IS
+ARCHITECTURE testbench OF tb_fflatch IS
 
 -- D-LATCH
 COMPONENT dt_dlatch
@@ -29,20 +29,20 @@ SIGNAL s_Ql, s_nQl, s_Qf, s_nQf : STD_LOGIC;
 
 BEGIN
 
-dut2: ENTITY work.dt_dflipflop
-PORT MAP (
-     D => s_D,
-     Clk => s_clk,
-     Qf => s_Qf,
-     nQf => s_nQf
-);
-
 dut1: ENTITY work.dt_dlatch
 PORT MAP (
      D => s_D,
      En => s_clk,
      Ql => s_Ql,
      nQl => s_nQl
+);
+
+dut2: ENTITY work.dt_dflipflop
+PORT MAP (
+     D => s_D,
+     Clk => s_clk,
+     Qf => s_Qf,
+     nQf => s_nQf
 );
 
 -- common processes in the separate process

@@ -4,7 +4,7 @@ USE ieee.std_logic_1164.all;
 ENTITY tb_fflatch IS
 END tb_fflatch;
 
-ARCHITECTURE testbench of tb_fflatch IS
+ARCHITECTURE testbench OF tb_fflatch IS
 
 -- D-LATCH
 COMPONENT dt_dlatch
@@ -52,7 +52,7 @@ BEGIN
     s_clk <= '1'; WAIT FOR 10 ns;
 END PROCESS; 
 
-data_stimuli: PROCESS -- with delay in 1 ns after clock
+data_stimuli: PROCESS
 BEGIN
     s_D <= '0'; WAIT FOR 10 ns; 
     s_D <= '1'; WAIT FOR 25 ns; 

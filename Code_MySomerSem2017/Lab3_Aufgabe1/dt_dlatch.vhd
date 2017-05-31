@@ -15,7 +15,7 @@ END dt_dlatch;
 ARCHITECTURE BehavioralLatch OF dt_dlatch IS
 BEGIN
 
-PROCESS (En) -- Sensivity list
+PROCESS (D, En) -- Sensivity list
 BEGIN
 	IF (En = '1') THEN
 		Ql <= D;

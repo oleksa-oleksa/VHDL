@@ -21,9 +21,9 @@ VaJ3?P<L=L]eLWhP<c^<:j2
 !s100 7mZ?n>IDci]NVCbLB=KZ71
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1496181399
+Z7 !s110 1496214065
 !i10b 1
-Z8 !s108 1496181399.000000
+Z8 !s108 1496214065.000000
 Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dflipflop.vhd|
 Z10 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dflipflop.vhd|
 !i113 1
@@ -67,7 +67,7 @@ R11
 R12
 w1496177585
 Edt_dlatch
-Z14 w1496181394
+Z14 w1496213912
 R1
 R2
 R3
@@ -79,36 +79,36 @@ VaLU;km0m3U]h@bAoVW23S1
 !s100 L3LYl18@OjGd7JmE>:;@Q0
 R6
 32
-Z17 !s110 1496181398
+R7
 !i10b 1
-Z18 !s108 1496181398.000000
-Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dlatch.vhd|
-Z20 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dlatch.vhd|
+Z17 !s108 1496214064.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dlatch.vhd|
+Z19 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dlatch.vhd|
 !i113 1
 R11
 R12
 Abehaviorallatch
 R1
 R2
-Z21 DEx4 work 9 dt_dlatch 0 22 aLU;km0m3U]h@bAoVW23S1
+Z20 DEx4 work 9 dt_dlatch 0 22 aLU;km0m3U]h@bAoVW23S1
 l16
 L15
-V<Td]>jW_:4FMGK5Hj1Z]=3
-!s100 5UXIKiB>J6aU_n5X=;ID]0
+V1iPOf7ORRe1_cl712KU9G1
+!s100 5mgB=`U^`IgARDdUiE7WJ0
 R6
 32
-R17
+R7
 !i10b 1
+R17
 R18
 R19
-R20
 !i113 1
 R11
 R12
 Abehavioral
 R1
 R2
-R21
+R20
 l16
 L15
 V09[C8B^ff?7hA;TY5LI8j0
@@ -119,18 +119,18 @@ R6
 !i10b 1
 !s108 1496178695.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dlatch.vhd|
-R20
+R19
 !i113 1
 R11
 R12
 w1496178634
 Etb_fflatch
-Z22 w1496181275
+Z21 w1496181275
 R1
 R2
 R3
-Z23 8C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd
-Z24 FC:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd
+Z22 8C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd
+Z23 FC:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd
 l0
 L4
 V]PBF0:YZ=Z[XMZWUB[_Rn1
@@ -140,28 +140,28 @@ R6
 R7
 !i10b 1
 R8
-Z25 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd|
-Z26 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd|
+Z24 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd|
+Z25 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd|
 !i113 1
 R11
 R12
 Atestbench
 R13
-R21
+R20
 R1
 R2
-Z27 DEx4 work 10 tb_fflatch 0 22 ]PBF0:YZ=Z[XMZWUB[_Rn1
+Z26 DEx4 work 10 tb_fflatch 0 22 ]PBF0:YZ=Z[XMZWUB[_Rn1
 l30
 L7
-Z28 VR4@KY0I5f7_akGYS^lfIg1
-Z29 !s100 ?i7h=TlN<2PTfhFU6aCL?2
+Z27 VR4@KY0I5f7_akGYS^lfIg1
+Z28 !s100 ?i7h=TlN<2PTfhFU6aCL?2
 R6
 32
 R7
 !i10b 1
 R8
+R24
 R25
-R26
 !i113 1
 R11
 R12

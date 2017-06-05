@@ -1,0 +1,41 @@
+# Reading C:/ENGINEERING/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project fourBitLatch
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project parityCheckWithDelay
+# Compile of parityCheckWithDelay.vhd was successful.
+# Compile of tb_parityCheckWithDelay.vhd was successful.
+# Compile of parity.vhd was successful.
+# Compile of parityWithDelay.vhd failed with 2 errors.
+# Compile of tb_parityCheckWithDelay.vhd failed with 3 errors.
+# Compile of parityWithDelay.vhd was successful.
+# Compile of tb_parityCheckWithDelay.vhd failed with 3 errors.
+# Compile of parityCheckWithDelay.vhd was successful.
+# Compile of parityWithDelay.vhd was successful.
+# 3 compiles, 1 failed with 3 errors.
+# Compile of tb_parityCheckWithDelay.vhd was successful.
+# Compile of parityCheckWithDelay.vhd was successful.
+# Compile of parityWithDelay.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of parityCheckWithDelay.vhd failed with 2 errors.
+# Compile of parityWithDelay.vhd failed with 2 errors.
+# Compile of parityWithDelay.vhd failed with 2 errors.
+# Compile of parityWithDelay.vhd failed with 1 errors.
+# Compile of parityWithDelay.vhd failed with 1 errors.
+# Compile of parityWithDelay.vhd failed with 2 errors.
+# Compile of parityWithDelay.vhd was successful.
+# Compile of tb_parityCheckWithDelay.vhd was successful.
+# Compile of parityCheckWithDelay.vhd failed with 2 errors.
+# Compile of parityWithDelay.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of tb_parityCheckWithDelay.vhd was successful.
+# Compile of parityCheckWithDelay.vhd was successful.
+# Compile of parityWithDelay.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+# Compile of tb_parityCheckWithDelay.vhd was successful.
+# Compile of parityCheckWithDelay.vhd failed with 2 errors.
+# Compile of parityWithDelay.vhd was successful.
+# 3 compiles, 1 failed with 2 errors.
+# Compile of tb_parityCheckWithDelay.vhd was successful.
+# Compile of parityCheckWithDelay.vhd failed with 4 errors.
+# Compile of parityWithDelay.vhd was successful.
+# 3 compiles, 1 failed with 4 errors.

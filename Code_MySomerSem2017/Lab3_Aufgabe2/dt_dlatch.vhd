@@ -8,16 +8,17 @@ PORT ( D : IN STD_LOGIC;
       );
 END dt_dlatch;
 
+-- SWITCH on Altera Board is low-active
 -- Gated D latch is implemented in a VHDL process. 
--- In the process, if EN is high, then Q = D 
--- When EN is low nothing happens -> NC .
+-- In the process, if EN is low, then Q = D 
+-- When EN is hight nothing happens -> NC .
 
 ARCHITECTURE BehavioralLatch OF dt_dlatch IS
 BEGIN
 
 PROCESS (D, En) -- Sensivity list
 BEGIN
-	IF (En = '1') THEN
+	IF (En = '0') THEN
 		Ql <= D;	
         END IF;
 END PROCESS;

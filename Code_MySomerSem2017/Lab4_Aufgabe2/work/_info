@@ -1,0 +1,322 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Quartus_projects/Mux2to1
+Eparity
+Z0 w1494268416
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2
+Z4 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parity.vhd
+Z5 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parity.vhd
+l0
+L4
+VOgi>Wf;MGm9bC6>jO;^Kj2
+!s100 V>1[_a1Ifg2QMbB_0=h573
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1496691368
+!i10b 1
+Z8 !s108 1496691368.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parity.vhd|
+Z10 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parity.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Aeven
+R1
+R2
+DEx4 work 6 parity 0 22 Ogi>Wf;MGm9bC6>jO;^Kj2
+l16
+L12
+Vnj`kLD5KMj:BLY]@FmCkO1
+!s100 5>mX^DLgiINERn8>@gca22
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eparitycheck
+Z13 w1494412058
+R1
+R2
+R3
+Z14 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityCheckWithDelay.vhd
+Z15 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityCheckWithDelay.vhd
+l0
+L4
+VZ:Fl=W<:WCzh1HnDz3<M`0
+!s100 ?<CEbO;2LPeFORg=1bJaU0
+R6
+32
+Z16 !s110 1496693793
+!i10b 1
+Z17 !s108 1496693793.000000
+Z18 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityCheckWithDelay.vhd|
+Z19 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityCheckWithDelay.vhd|
+!i113 1
+R11
+R12
+Aevenparcheck
+R1
+R2
+DEx4 work 11 paritycheck 0 22 Z:Fl=W<:WCzh1HnDz3<M`0
+l16
+L12
+VgeR:3Q[fSMNVB27h=:0bk3
+!s100 [=LcF=4R_24cX[J5N_]JJ1
+R6
+32
+R16
+!i10b 1
+R17
+R18
+R19
+!i113 1
+R11
+R12
+Eparitycheckwithdelay
+Z20 w1496696507
+R1
+R2
+R3
+R14
+R15
+l0
+L4
+VD6R:8@HP6dFN9oL9lzbcj1
+!s100 [0[iU2<FQ0PNj_8c7J7I>1
+R6
+32
+Z21 !s110 1496703572
+!i10b 1
+Z22 !s108 1496703572.000000
+R18
+R19
+!i113 1
+R11
+R12
+Aevenparcheck
+R1
+R2
+DEx4 work 20 paritycheckwithdelay 0 22 D6R:8@HP6dFN9oL9lzbcj1
+l19
+L15
+VGiY<I`P19=<8c]4lN?hf[1
+!s100 G_U89cAEVD5IM@JmZej>?0
+R6
+32
+R21
+!i10b 1
+R22
+R18
+R19
+!i113 1
+R11
+R12
+Eparitywithdelay
+Z23 w1496703566
+R1
+R2
+R3
+Z24 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd
+Z25 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd
+l0
+L4
+Vg9;R0W9W[NRUag_T<cz5z2
+!s100 jU91RTaKRCN?QPe@0ez`B3
+R6
+32
+Z26 !s110 1496703573
+!i10b 1
+R22
+Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd|
+Z28 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd|
+!i113 1
+R11
+R12
+Aeven
+R1
+R2
+DEx4 work 15 paritywithdelay 0 22 g9;R0W9W[NRUag_T<cz5z2
+l19
+L16
+VgCAc`HSF_@Eb>lE1U?QI]0
+!s100 2OHnXXmWf]il6i;lKa33j1
+R6
+32
+R26
+!i10b 1
+R22
+R27
+R28
+!i113 1
+R11
+R12
+Etb_parity
+Z29 w1494415483
+R1
+R2
+Z30 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1
+Z31 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
+Z32 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
+l0
+L4
+VZN^_Gc5Ce8VHgh1aBR>3X1
+!s100 9o;W`m1X_<`7[L_SamX5W2
+R6
+32
+Z33 !s110 1494415663
+!i10b 1
+Z34 !s108 1494415663.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
+Z36 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
+!i113 1
+R11
+R12
+Atest
+R1
+R2
+DEx4 work 9 tb_parity 0 22 ZN^_Gc5Ce8VHgh1aBR>3X1
+l31
+L7
+V3WmkTY[1GGU1C3A6aAk@b2
+!s100 ROG:WIBV9540V0[6koW1R1
+R6
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Etb_paritycheck
+Z37 w1494426963
+R1
+R2
+Z38 dH:/DT_workDir/Lab2_Aufgabe1
+Z39 8H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd
+Z40 FH:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd
+l0
+L4
+VnE202gJDGk0G?4X5_m?lV0
+!s100 baHF?Xd4>R3o5EGLf16QX2
+Z41 OV;C;10.3c;59
+32
+Z42 !s110 1494427558
+!i10b 1
+Z43 !s108 1494427558.169000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd|
+Z45 !s107 H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd|
+!i113 1
+R11
+Z46 tExplicit 1
+Atest
+R1
+R2
+DEx4 work 14 tb_paritycheck 0 22 nE202gJDGk0G?4X5_m?lV0
+l31
+L7
+V8=S_6<GZ2@NGB727g11zC1
+!s100 haE_O0AJYHFY]05ef^@1U2
+R41
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R11
+R46
+Etb_paritycheckwithdelay
+Z47 w1496696289
+R1
+R2
+R3
+Z48 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd
+Z49 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd
+l0
+L4
+V>_1Y:V>43bcMc@[[=UY[]1
+!s100 =g3azfW8kgJ0L@;`]jia<1
+R6
+32
+R21
+!i10b 1
+R22
+Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd|
+Z51 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd|
+!i113 1
+R11
+R12
+Atest
+R1
+R2
+DEx4 work 23 tb_paritycheckwithdelay 0 22 >_1Y:V>43bcMc@[[=UY[]1
+l37
+L7
+VRP4;cScc[`kK7VVHBZ4[K2
+!s100 P7DaCPj0@4Q29z?_UM:Q31
+R6
+32
+R21
+!i10b 1
+R22
+R50
+R51
+!i113 1
+R11
+R12
+Etb_paritywithdelay
+Z52 w1496700765
+R1
+R2
+R3
+Z53 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd
+Z54 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd
+l0
+L4
+V0eJAhI6ijFXV=6oXOeaa10
+!s100 Vml?5oV4779BDRhUi=Fkm3
+R6
+32
+R26
+!i10b 1
+Z55 !s108 1496703573.000000
+Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd|
+Z57 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd|
+!i113 1
+R11
+R12
+Atest
+R1
+R2
+Z58 DEx4 work 18 tb_paritywithdelay 0 22 0eJAhI6ijFXV=6oXOeaa10
+l25
+L7
+Z59 VUVaNeXTU6W?kcSzdPSHGS2
+Z60 !s100 0o5miE29Hlob<I;LG2=8V3
+R6
+32
+R26
+!i10b 1
+R55
+R56
+R57
+!i113 1
+R11
+R12

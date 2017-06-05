@@ -1,0 +1,147 @@
+# Reading C:/ENGINEERING/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project latch_and_ff
+# Compile of dt_dlatch.vhd was successful.
+vsim -gui work.tb_fflatch
+# vsim -gui work.tb_fflatch 
+# Start time: 10:39:54 on May 31,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fflatch(testbench)
+# Loading work.dt_dlatch(behaviorallatch)
+# Loading work.dt_dflipflop(behavioralff)
+add wave -position end  sim:/tb_fflatch/s_clk
+add wave -position end  sim:/tb_fflatch/s_D
+add wave -position end  sim:/tb_fflatch/s_Ql
+add wave -position end  sim:/tb_fflatch/s_Qf
+run
+quit -sim
+# End time: 10:41:05 on May 31,2017, Elapsed time: 0:01:11
+# Errors: 0, Warnings: 0
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fourBitLatch
+# Compile of dt_dlatch.vhd was successful.
+# Compile of fourBitLatch.vhd failed with 2 errors.
+# Compile of fourBitLatch.vhd was successful.
+# Compile of dt_dlatch.vhd was successful.
+# Compile of tb_fourBitLatch.vhd failed with 2 errors.
+# Compile of tb_fourBitLatch.vhd failed with 2 errors.
+# Compile of tb_fourBitLatch.vhd failed with 1 errors.
+# Compile of tb_fourBitLatch.vhd failed with 3 errors.
+# Compile of tb_fourBitLatch.vhd failed with 2 errors.
+# Compile of tb_fourBitLatch.vhd failed with 2 errors.
+# Compile of tb_fourBitLatch.vhd was successful.
+vsim work.tb_fourbitlatch
+# vsim work.tb_fourbitlatch 
+# Start time: 13:24:00 on May 31,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fourbitlatch(testbench)
+# Loading work.fourbitlatch(behavioral)
+# Loading work.dt_dlatch(behaviorallatch)
+add wave -position end  sim:/tb_fourbitlatch/tb_clk
+add wave -position end  sim:/tb_fourbitlatch/tb_D3
+add wave -position end  sim:/tb_fourbitlatch/tb_D2
+add wave -position end  sim:/tb_fourbitlatch/tb_D1
+add wave -position end  sim:/tb_fourbitlatch/tb_D0
+add wave -position end  sim:/tb_fourbitlatch/tb_Q3
+add wave -position end  sim:/tb_fourbitlatch/tb_Q2
+add wave -position end  sim:/tb_fourbitlatch/tb_Q1
+add wave -position end  sim:/tb_fourbitlatch/tb_Q0
+run -continue
+run
+quit -sim
+# End time: 13:28:19 on May 31,2017, Elapsed time: 0:04:19
+# Errors: 0, Warnings: 0
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project latch_and_ff
+# Compile of tb_fflatch.vhd was successful.
+vsim work.tb_fflatch
+# vsim work.tb_fflatch 
+# Start time: 16:13:55 on May 31,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fflatch(testbench)
+# Loading work.dt_dlatch(behaviorallatch)
+# Loading work.dt_dflipflop(behavioralff)
+add wave -position end  sim:/tb_fflatch/s_clk
+add wave -position end  sim:/tb_fflatch/s_D
+add wave -position end  sim:/tb_fflatch/s_Ql
+add wave -position end  sim:/tb_fflatch/s_Qf
+run
+quit -sim
+# End time: 16:29:12 on May 31,2017, Elapsed time: 0:15:17
+# Errors: 0, Warnings: 0
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fourBitLatch
+# Compile of tb_fourBitLatch.vhd was successful.
+vsim work.tb_fourbitlatch
+# vsim work.tb_fourbitlatch 
+# Start time: 16:34:55 on May 31,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fourbitlatch(testbench)
+# Loading work.fourbitlatch(behavioral)
+# Loading work.dt_dlatch(behaviorallatch)
+add wave -position end  sim:/tb_fourbitlatch/tb_clk
+add wave -position end  sim:/tb_fourbitlatch/tb_D3
+add wave -position end  sim:/tb_fourbitlatch/tb_D2
+add wave -position end  sim:/tb_fourbitlatch/tb_D1
+add wave -position end  sim:/tb_fourbitlatch/tb_D0
+add wave -position end  sim:/tb_fourbitlatch/tb_Q3
+add wave -position end  sim:/tb_fourbitlatch/tb_Q2
+add wave -position end  sim:/tb_fourbitlatch/tb_Q1
+add wave -position end  sim:/tb_fourbitlatch/tb_Q0
+run
+quit -sim
+# End time: 16:56:56 on May 31,2017, Elapsed time: 0:22:01
+# Errors: 0, Warnings: 0
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fourBitShift
+# Compile of dt_dflipflop.vhd was successful.
+# Compile of tb_fourBitLatch.vhd was successful.
+# Compile of fourBitShift.vhd failed with 1 errors.
+# 3 compiles, 1 failed with 1 error.
+# Compile of dt_dflipflop.vhd was successful.
+# Compile of tb_fourBitLatch.vhd was successful.
+# Compile of fourBitShift.vhd failed with 5 errors.
+# 3 compiles, 1 failed with 5 errors.
+# Compile of fourBitShift.vhd was successful.
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fourBitLatch
+# Compile of debounce.vhd was successful.
+# Compile of dt_dlatch.vhd was successful.
+# Compile of fourBitLatch.vhd was successful.
+# Compile of tb_fourBitLatch.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.tb_fourbitlatch
+# vsim work.tb_fourbitlatch 
+# Start time: 17:41:57 on May 31,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_fourbitlatch(testbench)
+# Loading work.fourbitlatch(behavioral)
+# Loading work.dt_dlatch(behaviorallatch)
+add wave -position end  sim:/tb_fourbitlatch/tb_clk
+add wave -position end  sim:/tb_fourbitlatch/tb_D3
+add wave -position end  sim:/tb_fourbitlatch/tb_D2
+add wave -position end  sim:/tb_fourbitlatch/tb_D1
+add wave -position end  sim:/tb_fourbitlatch/tb_D0
+add wave -position end  sim:/tb_fourbitlatch/tb_Q3
+add wave -position end  sim:/tb_fourbitlatch/tb_Q2
+add wave -position end  sim:/tb_fourbitlatch/tb_Q1
+add wave -position end  sim:/tb_fourbitlatch/tb_Q0
+run
+quit -sim
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project fourBitShift
+# End time: 17:45:58 on May 31,2017, Elapsed time: 0:04:01
+# Errors: 0, Warnings: 0
+# Compile of dt_dflipflop.vhd was successful.
+# Compile of tb_fourBitLatch.vhd failed with 14 errors.
+# Compile of fourBitShift.vhd was successful.
+# 3 compiles, 1 failed with 14 errors.

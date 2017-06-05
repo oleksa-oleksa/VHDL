@@ -1,4 +1,4 @@
-C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/tb_fflatch.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\tb_fflatch.vhd}
+C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/tb_fflatch.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/tb_fflatch.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
@@ -8,14 +8,6 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading entity dt_dlatch
 -- Loading entity dt_dflipflop
 
-} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/dt_dlatch.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/dt_dlatch.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity dt_dlatch
--- Compiling architecture BehavioralLatch of dt_dlatch
-
 } {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/dt_dflipflop.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\ENGINEERING\VHDL\Code_MySomerSem2017\Lab3_Aufgabe1\dt_dflipflop.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
@@ -23,5 +15,13 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Loading package std_logic_1164
 -- Compiling entity dt_dflipflop
 -- Compiling architecture BehavioralFF of dt_dflipflop
+
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/dt_dlatch.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab3_Aufgabe1/dt_dlatch.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity dt_dlatch
+-- Compiling architecture BehavioralLatch of dt_dlatch
 
 } {} {}}

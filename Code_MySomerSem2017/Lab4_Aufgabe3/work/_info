@@ -1,0 +1,88 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2
+Edelta
+Z0 w1497460894
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3
+Z4 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/delta.vhdl
+Z5 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/delta.vhdl
+l0
+L4
+Voozc0IWWJK<`XPdZKG>zD1
+!s100 MTS9PkYUbBdMD2=UoQl7_3
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1497460897
+!i10b 1
+Z8 !s108 1497460897.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/delta.vhdl|
+Z10 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/delta.vhdl|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehav
+R1
+R2
+DEx4 work 5 delta 0 22 oozc0IWWJK<`XPdZKG>zD1
+l18
+L14
+VIlCm9o4@DS^U00:ff`gY21
+!s100 WC9zgZ?HQFLiXBi5JB;0[1
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Etb_delta
+Z13 w1497440052
+R1
+R2
+R3
+Z14 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/tb_delta.vhdl
+Z15 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/tb_delta.vhdl
+l0
+L4
+VNXbM<3>:e<WiJ2=7;KH0S0
+!s100 F[m[0B^<hPCoGo0D>RG^C1
+R6
+32
+R7
+!i10b 1
+R8
+Z16 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/tb_delta.vhdl|
+Z17 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe3/tb_delta.vhdl|
+!i113 1
+R11
+R12
+Atestb
+R1
+R2
+Z18 DEx4 work 8 tb_delta 0 22 NXbM<3>:e<WiJ2=7;KH0S0
+l22
+L7
+Z19 Vjkg44YhSh2F_k5V2zXz?S3
+Z20 !s100 7Vk[Hb4^j=GEU:ozG?Qk[2
+R6
+32
+R7
+!i10b 1
+R8
+R16
+R17
+!i113 1
+R11
+R12

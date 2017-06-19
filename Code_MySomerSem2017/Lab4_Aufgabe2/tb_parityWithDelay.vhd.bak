@@ -8,7 +8,7 @@ ARCHITECTURE test OF tb_parityWithDelay IS
 
 COMPONENT parityWithDelay
 GENERIC ( Th : TIME := 3 ns;
-          	Tp : TIME := 5 ns
+          Tp : TIME := 5 ns
 );
 PORT (
 	X2, X1, X0 : IN STD_LOGIC;
@@ -31,7 +31,7 @@ PORT MAP (
       Dataword => Dataword
 );
 
--- First 20 ns for observing X initial state	
+	
 X0 <= '0' AFTER 0 ns, '1' AFTER  20 ns, 
       '0' AFTER  40 ns, '1' AFTER 60 ns, 
       '0' AFTER 80 ns, '1' AFTER 100 ns, 
@@ -46,6 +46,5 @@ X2 <= '0' AFTER 0 ns, '0' AFTER  20 ns,
       '0' AFTER  40 ns, '0' AFTER 60 ns, 
       '1' AFTER 80 ns, '1' AFTER 100 ns, 
       '1' AFTER 120 ns, '1' AFTER 140 ns;
-      
       
 END test;

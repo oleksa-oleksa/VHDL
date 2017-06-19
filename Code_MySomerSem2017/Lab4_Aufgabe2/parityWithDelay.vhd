@@ -8,34 +8,44 @@ GENERIC ( Th : TIME := 3 ns;
 );
 PORT
 (
-   X2, X1, X0 : IN STD_LOGIC; -- X2 = AC27, X1 = AC28, X0 = AB28
-   Dataword   : OUT STD_LOGIC_VECTOR(3 DOWNTO 0) -- (3) = E24, (2) = E25, (1) = E22, (0) = E21
+   X2, X1, X0 : IN STD_LOGIC; 
+   Dataword   : OUT STD_LOGIC_VECTOR(3 DOWNTO 0) 
 );
+
 END parityWithDelay;
 
 ARCHITECTURE Even OF parityWithDelay IS
 
-SIGNAL xor1, xor2 : STD_LOGIC := 'X'; -- unknown. Impossible to determine this value/result.
+SIGNAL xor2, xor1 : STD_LOGIC; 
+
 BEGIN
 
--- WAIT FOR is not synthesisable - SOLUTION IS REJECTED
+HoldTime_FirstSignal: PROCESS
+BEGIN
+WAIT ON X1, X0;
+xor1 <= 'X';
 
-ParityCreator: PROCESS -- Wait statement is illegal for sensivity list. 
-	BEGIN
+WAIT UNTIL (X1'STABLE(Th) AND X0'STABLE(Th));
+xor1 <= X1 XOR X0 AFTER Tp;
+END PROCESS HoldTime_FirstSignal;
 
-   	Dataword(0) <= X0;
-	Dataword(1) <= X1;
-	Dataword(2) <= X2; --| Eingangssignale als Datenwort
- 
-	WAIT FOR Th; -- HOLD TIME 3 ns
-	xor1 <= X0 XOR X1 AFTER Tp; -- Propagation Delay 5 ns
-	WAIT FOR Th; -- 3 ns
-	xor2 <= xor1 XOR X2 AFTER Tp; -- 5 ns
-	Dataword(3) <= xor2; --| Parity as D3
+HoldTime_SecondSignal: PROCESS 
+BEGIN
+WAIT ON X2, xor1;
+xor2 <= 'X';
 
+WAIT UNTIL (X2'STABLE(Th) AND xor1'STABLE(Th));
+xor2 <= X2 XOR xor1 AFTER Tp;
+END PROCESS HoldTime_SecondSignal;
 
-	
-	
-	
-	END PROCESS ParityCreator;
+ParityDelay: PROCESS (X2, X1, X0, xor2, xor1) -- Gate Logic is here
+BEGIN
+
+-- Saving everything into Dataword with Parity as MSB
+Dataword(0) <= X0;
+Dataword(1) <= X1;
+Dataword(2) <= X2;
+Dataword(3) <= xor2; -- Parity as D3
+
+END PROCESS ParityDelay;
 END Even;

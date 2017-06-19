@@ -99,9 +99,9 @@ VD6R:8@HP6dFN9oL9lzbcj1
 !s100 [0[iU2<FQ0PNj_8c7J7I>1
 R6
 32
-Z21 !s110 1496703572
+Z21 !s110 1497450432
 !i10b 1
-Z22 !s108 1496703572.000000
+Z22 !s108 1497450432.000000
 R18
 R19
 !i113 1
@@ -126,7 +126,7 @@ R19
 R11
 R12
 Eparitywithdelay
-Z23 w1496703566
+Z23 w1497439276
 R1
 R2
 R3
@@ -134,54 +134,54 @@ Z24 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd
 Z25 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd
 l0
 L4
-Vg9;R0W9W[NRUag_T<cz5z2
-!s100 jU91RTaKRCN?QPe@0ez`B3
+V<7E73DS2kMTXMT@EU8@2I1
+!s100 L8JVk>aX@[XT9J843OYfM1
 R6
 32
-Z26 !s110 1496703573
+Z26 !s110 1497439280
 !i10b 1
-R22
-Z27 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd|
-Z28 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd|
+Z27 !s108 1497439279.000000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd|
+Z29 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/parityWithDelay.vhd|
 !i113 1
 R11
 R12
 Aeven
 R1
 R2
-DEx4 work 15 paritywithdelay 0 22 g9;R0W9W[NRUag_T<cz5z2
-l19
-L16
-VgCAc`HSF_@Eb>lE1U?QI]0
-!s100 2OHnXXmWf]il6i;lKa33j1
+DEx4 work 15 paritywithdelay 0 22 <7E73DS2kMTXMT@EU8@2I1
+l21
+L17
+VThdQV@2<0nSn6bF7hl;O_0
+!s100 hiDgjSI4>[^JJC6j3:fem3
 R6
 32
 R26
 !i10b 1
-R22
 R27
 R28
+R29
 !i113 1
 R11
 R12
 Etb_parity
-Z29 w1494415483
+Z30 w1494415483
 R1
 R2
-Z30 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1
-Z31 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
-Z32 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
+Z31 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1
+Z32 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
+Z33 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd
 l0
 L4
 VZN^_Gc5Ce8VHgh1aBR>3X1
 !s100 9o;W`m1X_<`7[L_SamX5W2
 R6
 32
-Z33 !s110 1494415663
+Z34 !s110 1494415663
 !i10b 1
-Z34 !s108 1494415663.000000
-Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
-Z36 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
+Z35 !s108 1494415663.000000
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
+Z37 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab2_Aufgabe1/tb_parityCheck.vhd|
 !i113 1
 R11
 R12
@@ -195,35 +195,35 @@ V3WmkTY[1GGU1C3A6aAk@b2
 !s100 ROG:WIBV9540V0[6koW1R1
 R6
 32
-R33
-!i10b 1
 R34
+!i10b 1
 R35
 R36
+R37
 !i113 1
 R11
 R12
 Etb_paritycheck
-Z37 w1494426963
+Z38 w1494426963
 R1
 R2
-Z38 dH:/DT_workDir/Lab2_Aufgabe1
-Z39 8H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd
-Z40 FH:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd
+Z39 dH:/DT_workDir/Lab2_Aufgabe1
+Z40 8H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd
+Z41 FH:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd
 l0
 L4
 VnE202gJDGk0G?4X5_m?lV0
 !s100 baHF?Xd4>R3o5EGLf16QX2
-Z41 OV;C;10.3c;59
+Z42 OV;C;10.3c;59
 32
-Z42 !s110 1494427558
+Z43 !s110 1494427558
 !i10b 1
-Z43 !s108 1494427558.169000
-Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd|
-Z45 !s107 H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd|
+Z44 !s108 1494427558.169000
+Z45 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd|
+Z46 !s107 H:\DT_workDir\Lab2_Aufgabe1\tb_parityCheck.vhd|
 !i113 1
 R11
-Z46 tExplicit 1
+Z47 tExplicit 1
 Atest
 R1
 R2
@@ -232,23 +232,23 @@ l31
 L7
 V8=S_6<GZ2@NGB727g11zC1
 !s100 haE_O0AJYHFY]05ef^@1U2
-R41
-32
 R42
-!i10b 1
+32
 R43
+!i10b 1
 R44
 R45
+R46
 !i113 1
 R11
-R46
+R47
 Etb_paritycheckwithdelay
-Z47 w1496696289
+Z48 w1496696289
 R1
 R2
 R3
-Z48 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd
-Z49 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd
+Z49 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd
+Z50 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd
 l0
 L4
 V>_1Y:V>43bcMc@[[=UY[]1
@@ -258,36 +258,36 @@ R6
 R21
 !i10b 1
 R22
-Z50 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd|
-Z51 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd|
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd|
+Z52 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityCheckWithDelay.vhd|
 !i113 1
 R11
 R12
 Atest
 R1
 R2
-DEx4 work 23 tb_paritycheckwithdelay 0 22 >_1Y:V>43bcMc@[[=UY[]1
+Z53 DEx4 work 23 tb_paritycheckwithdelay 0 22 >_1Y:V>43bcMc@[[=UY[]1
 l37
 L7
-VRP4;cScc[`kK7VVHBZ4[K2
-!s100 P7DaCPj0@4Q29z?_UM:Q31
+Z54 VRP4;cScc[`kK7VVHBZ4[K2
+Z55 !s100 P7DaCPj0@4Q29z?_UM:Q31
 R6
 32
 R21
 !i10b 1
 R22
-R50
 R51
+R52
 !i113 1
 R11
 R12
 Etb_paritywithdelay
-Z52 w1496700765
+Z56 w1497377753
 R1
 R2
 R3
-Z53 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd
-Z54 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd
+Z57 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd
+Z58 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd
 l0
 L4
 V0eJAhI6ijFXV=6oXOeaa10
@@ -296,27 +296,27 @@ R6
 32
 R26
 !i10b 1
-Z55 !s108 1496703573.000000
-Z56 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd|
-Z57 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd|
+Z59 !s108 1497439280.000000
+Z60 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd|
+Z61 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab4_Aufgabe2/tb_parityWithDelay.vhd|
 !i113 1
 R11
 R12
 Atest
 R1
 R2
-Z58 DEx4 work 18 tb_paritywithdelay 0 22 0eJAhI6ijFXV=6oXOeaa10
+DEx4 work 18 tb_paritywithdelay 0 22 0eJAhI6ijFXV=6oXOeaa10
 l25
 L7
-Z59 VUVaNeXTU6W?kcSzdPSHGS2
-Z60 !s100 0o5miE29Hlob<I;LG2=8V3
+VaoKo5l`0jlfXAedQFFS<Z2
+!s100 ;5NQ2O_0`2]D5:jhF6bJW0
 R6
 32
 R26
 !i10b 1
-R55
-R56
-R57
+R59
+R60
+R61
 !i113 1
 R11
 R12

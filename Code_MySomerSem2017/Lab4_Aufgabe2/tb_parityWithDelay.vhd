@@ -31,23 +31,21 @@ PORT MAP (
       Dataword => Dataword
 );
 
--- First 20 ns for observing X initial state	
-X0 <= 'X' AFTER 0 ns,
-      '0' AFTER 20 ns, '1' AFTER  40 ns, 
-      '0' AFTER  60 ns, '1' AFTER 80 ns, 
-      '0' AFTER 100 ns, '1' AFTER 120 ns, 
-      '0' AFTER 140 ns, '1' AFTER 160 ns;
+	
+X0 <= '0' AFTER 0 ns, '1' AFTER  20 ns, 
+      '0' AFTER  40 ns, '1' AFTER 60 ns, 
+      '0' AFTER 80 ns, '1' AFTER 100 ns, 
+      '0' AFTER 120 ns, '1' AFTER 140 ns;
 
-X1 <= 'X' AFTER 0 ns,
-      '0' AFTER 20 ns, '0' AFTER  40 ns, 
-      '1' AFTER  60 ns, '1' AFTER 80 ns, 
-      '0' AFTER 100 ns, '0' AFTER 120 ns, 
-      '1' AFTER 140 ns, '1' AFTER 160 ns;
+X1 <= '0' AFTER 0 ns, '0' AFTER  20 ns, 
+      '1' AFTER  40 ns, '1' AFTER 60 ns, 
+      '0' AFTER 80 ns, '0' AFTER 100 ns, 
+      '1' AFTER 120 ns, '1' AFTER 140 ns;
 
-X2 <= 'X' AFTER 0 ns,
-      '0' AFTER 20 ns, '0' AFTER  40 ns, 
-      '0' AFTER  60 ns, '0' AFTER 80 ns, 
-      '1' AFTER 100 ns, '1' AFTER 120 ns, 
-      '1' AFTER 140 ns, '1' AFTER 160 ns;
+X2 <= '0' AFTER 0 ns, '0' AFTER  20 ns, 
+      '0' AFTER  40 ns, '0' AFTER 60 ns, 
+      '1' AFTER 80 ns, '1' AFTER 100 ns, 
+      '1' AFTER 120 ns, '1' AFTER 140 ns,
+      '0' AFTER 160 ns;
       
 END test;

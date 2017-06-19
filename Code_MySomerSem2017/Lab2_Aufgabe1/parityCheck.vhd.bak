@@ -4,23 +4,25 @@ USE ieee.std_logic_1164.all;
 ENTITY parityCheck IS
 PORT
 (
-   X2, X1, X0 : IN bit; -- X2 = AC27, X1 = AC28, X0 = AB28
-	Dataword   : OUT bit_vector(3 DOWNTO 0) -- (3) = E24, (2) = E25, (1) = E22, (0) = E21
+  	Dataword   : IN bit_vector(3 DOWNTO 0); -- three switches put the bit directly into array
+	isBrocken  : OUT BIT 
 );
 END parityCheck;
 
-ARCHITECTURE Odd OF parityCheck IS
+ARCHITECTURE evenParCheck OF parityCheck IS
 
-SIGNAL xor1, xor2 : bit;
+SIGNAL xor1, Parity : BIT;
 
 BEGIN
-   xor1 <= X0 XOR X1; 
-	xor2 <= xor1 XOR X2; -- Parity bilden
+   -- calculating expected paritybit
+	xor1 <= Dataword(0) XOR Dataword(1); 
+	Parity <= xor1 XOR Dataword(2) after 10 ns; -- holds the calculated paritybit of dataword (1 or 0)
 	
-	-- alternativ: Dataword <= xor2 & X2 & X1 & X0
-	Dataword(0) <= X0;
-	Dataword(1) <= X1;
-	Dataword(2) <= X2; --| Eingangssignale als Datenwort und
-	Dataword(3) <= xor2; --| Parity am Datenwort anhaengen
+	-- Compare the existing parity with calculated
+	-- XOR for detection the error
+	-- if XOR2 != Dataword(3) ==> 1 else 0 (no error)
 	
-END Odd;
+	isBrocken <= Dataword(3) XOR Parity;
+	
+	
+END evenParCheck;

@@ -1,0 +1,112 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1
+Eexamtimelinetraining
+Z0 w1501013281
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining
+Z4 8C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd
+Z5 FC:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd
+l0
+L4
+VgMCYGb>1d__[[?a4VNk@<2
+!s100 ?3L]aUFJ>2`WT4Kod3nBf0
+Z6 OV;C;10.5b;63
+32
+Z7 !s110 1501013287
+!i10b 1
+Z8 !s108 1501013287.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd|
+Z10 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd|
+!i113 1
+Z11 o-work work -2002 -explicit
+Z12 tExplicit 1 CvgOpt 0
+Abehaviour_teppner2006
+R1
+R2
+Z13 DEx4 work 20 examtimelinetraining 0 22 gMCYGb>1d__[[?a4VNk@<2
+l10
+L7
+VRM^_TPI?<Ja<J;PZ`A@3@3
+!s100 [1d7Kh=X;g2_A`Vf7LDf70
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Abehaviour_bogomolni2016
+R1
+R2
+DEx4 work 20 examtimelinetraining 0 22 k=A4ZRzdcX<ie:aH5g[D42
+l13
+L8
+VIc0=V3KM<<O^1RGe7AK^m3
+!s100 ;]ef]hJ4FP2D8O6Z__BN13
+R6
+32
+Z14 !s110 1501012410
+!i10b 1
+Z15 !s108 1501012410.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd|
+!s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd|
+!i113 1
+R11
+R12
+FC:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd
+w1501004904
+8C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd
+Abehaviour_teppner2005
+R1
+R2
+Z16 DEx4 work 20 examtimelinetraining 0 22 XGd`Q^<YoU6hFHlNl?A8Y3
+l13
+L10
+VnVdZm4US6:czAU@W7]bJI1
+!s100 h`4ojZaCCE@87kMUJa[c@0
+R6
+32
+R14
+!i10b 1
+R15
+Z17 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner2005.vhd|
+Z18 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner2005.vhd|
+!i113 1
+R11
+R12
+Z19 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner2005.vhd
+w1500993193
+Z20 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner2005.vhd
+Abehaviour
+R1
+R2
+R16
+l13
+L10
+VAWjhN9?GB3;4KAX7mWfbS0
+!s100 [@`[BH^A2N]YKO3:fZEWb1
+R6
+32
+!s110 1500992693
+!i10b 1
+!s108 1500992692.000000
+R17
+R18
+!i113 1
+R11
+R12
+w1500992688
+R19
+R20

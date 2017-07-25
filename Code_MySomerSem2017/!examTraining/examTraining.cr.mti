@@ -1,0 +1,17 @@
+C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity examTimeLineTraining
+-- Compiling architecture Behaviour_Bogomolni2016 of examTimeLineTraining
+
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner2005.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner2005.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity examTimeLineTraining
+-- Compiling architecture Behaviour_Teppner2005 of examTimeLineTraining
+
+} {} {}}

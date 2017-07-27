@@ -4,30 +4,32 @@ use ieee.std_logic_1164.all;
 ENTITY examTimeLineTraining IS
 END examTimeLineTraining;
 
-ARCHITECTURE Behaviour_Teppner2006 OF examTimeLineTraining IS
-SIGNAL a, b, d, e, g, clk : std_logic := '0';
+ARCHITECTURE Behaviour_Teppner2012 OF examTimeLineTraining IS
+SIGNAL a, b, d, e, clk : std_logic := '0';
+SIGNAL r : std_logic := '1';
 
 BEGIN
-a <= '1' AFTER 15 ns, '0' AFTER 20 ns, '1' AFTER 50 ns, '0' AFTER 60 ns, '1' AFTER 70 ns;
--- clk wave is added in ModelSim 
-g <= '0' AFTER 0 ns, '1' AFTER 25 ns;
+a <= '1' AFTER 15 ns, '0' AFTER 35 ns, '1' AFTER 45 ns, '0' AFTER 60 ns;
+clk <= NOT clk AFTER 10 ns; 
+r <= '0' AFTER 25 ns, '1' AFTER 55 ns, '0' AFTER 65 ns;
 
 PROCESS (clk)	
-VARIABLE c : std_logic;
+VARIABLE c : std_logic := '0';
 	BEGIN
-	  IF g = '1' THEN
-		c := NOT a;
+	  b <= a;
+	  IF r = '1' THEN
+		b <= '0';
+		c := b;
 		d <= c;
-		b <= d;
-	  ELSE
-		c := a;
-		b <= c;
-		d <= b;
-	  END IF;
+	  ELSE 
+		IF (clk = '1' AND clk'EVENT) THEN
+			d <= a;
+			c := d;
+			b <= c;
+	  	END IF;
+	END IF;
 
-	  e <= c OR d AFTER 9
-
- ns;
+	  e <= b XOR r;
 END PROCESS;
 
-END Behaviour_Teppner2006;
+END Behaviour_Teppner2012;

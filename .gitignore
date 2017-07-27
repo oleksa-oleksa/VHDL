@@ -1,2 +1,17 @@
-*.flock
+**/*.flock
+**/*.mti
+**/*.mpf
+**/*.bak
+**/*.qdb
+**/*.gpg
+**/*.qtl
+**/_info
+*/*.flock
+*/*.mti
+*/*.mpf
+*/*.bak
+*/*.qdb
+*/*.gpg
+*/*.qtl
+*/_info
 

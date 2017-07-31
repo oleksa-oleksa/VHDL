@@ -1,0 +1,335 @@
+# Reading C:/ENGINEERING/ModelSim/modelsim_ase/tcl/vsim/pref.tcl
+# Loading project digilock
+# Compile of digilock.vhd failed with 3 errors.
+# Compile of tb_digilock.vhd was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of digilock.vhd was successful with warnings.
+# Compile of tb_digilock.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_digilock
+# vsim work.tb_digilock 
+# Start time: 17:49:10 on Jun 28,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.tb_digilock(testbench)
+# Loading work.digilock(behave)
+add wave -position end  sim:/tb_digilock/dut/x
+add wave -position end  sim:/tb_digilock/dut/clk
+add wave -position end  sim:/tb_digilock/dut/reset
+add wave -position end  sim:/tb_digilock/dut/lock
+add wave -position end  sim:/tb_digilock/dut/alarm
+add wave -position end  sim:/tb_digilock/dut/zustand
+add wave -position end  sim:/tb_digilock/dut/folgezustand
+add wave -position end  sim:/tb_digilock/dut/counter
+restart
+run
+# ** Fatal: (vsim-3421) Value 6 is out of range 1 to 5.
+#    Time: 225 ns  Iteration: 1  Process: /tb_digilock/dut/Zustandsspeicher File: C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1/digilock.vhd
+# Fatal error in Process Zustandsspeicher at C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1/digilock.vhd line 27
+# 
+# HDL call sequence:
+# Stopped at C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1/digilock.vhd 27 Process Zustandsspeicher
+# 
+# Break key hit
+# Break key hit
+restart
+# Compile of digilock.vhd was successful with warnings.
+# Compile of tb_digilock.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_digilock(testbench)
+# Loading work.digilock(behave)
+run
+# ** Fatal: (vsim-3421) Value 6 is out of range 1 to 5.
+#    Time: 225 ns  Iteration: 1  Process: /tb_digilock/dut/Zustandsspeicher File: C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1/digilock.vhd
+# Fatal error in Process Zustandsspeicher at C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1/digilock.vhd line 27
+# 
+# HDL call sequence:
+# Stopped at C:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1/digilock.vhd 27 Process Zustandsspeicher
+# 
+# Compile of digilock.vhd was successful with warnings.
+# Compile of tb_digilock.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.tb_digilock(testbench)
+# Loading work.digilock(behave)
+run
+restart
+run
+quit -sim
+# End time: 15:42:59 on Jul 25,2017, Elapsed time: 645:53:49
+# Errors: 4, Warnings: 0
+# reading C:/ENGINEERING/ModelSim/modelsim_ase/win32aloem/../modelsim.ini
+# Loading project examTraining
+# Compile of teppner2005.vhd was successful.
+# Load canceled
+# Compile of teppner2005.vhd was successful.
+vsim work.examtimelinetraining(behaviour_teppner2005)
+# vsim work.examtimelinetraining(behaviour_teppner2005) 
+# Start time: 16:26:02 on Jul 25,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.examtimelinetraining(behaviour_teppner2005)
+add wave -position end  sim:/examtimelinetraining/a
+add wave -position end  sim:/examtimelinetraining/c
+add wave -position end  sim:/examtimelinetraining/d
+add wave -position end  sim:/examtimelinetraining/e
+add wave -position end  sim:/examtimelinetraining/clk
+run
+# Compile of teppner2005.vhd failed with 2 errors.
+restart
+run
+quit -sim
+# End time: 16:30:59 on Jul 25,2017, Elapsed time: 0:04:57
+# Errors: 0, Warnings: 0
+# Compile of teppner2005.vhd failed with 2 errors.
+# Compile of teppner2005.vhd failed with 8 errors.
+# Compile of teppner2005.vhd was successful.
+vsim work.examtimelinetraining(behaviour_teppner2005)
+# vsim work.examtimelinetraining(behaviour_teppner2005) 
+# Start time: 16:32:51 on Jul 25,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.examtimelinetraining(behaviour_teppner2005)
+# Compile of teppner2005.vhd was successful.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2005)
+run
+run
+add wave -position end  sim:/examtimelinetraining/a
+add wave -position end  sim:/examtimelinetraining/c
+add wave -position end  sim:/examtimelinetraining/d
+add wave -position end  sim:/examtimelinetraining/e
+add wave -position end  sim:/examtimelinetraining/clk
+add wave -position end  /examtimelinetraining/line__17/b
+run
+restart
+run
+restart
+run
+quit -sim
+# End time: 17:15:23 on Jul 25,2017, Elapsed time: 0:42:32
+# Errors: 0, Warnings: 0
+# Compile of bogomolni2016.vhd failed with 6 errors.
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd failed with 3 errors.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of bogomolni2016.vhd was successful.
+vsim work.examtimelinetraining(behaviour_bogomolni2016)
+# vsim work.examtimelinetraining(behaviour_bogomolni2016) 
+# Start time: 18:59:21 on Jul 25,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.examtimelinetraining(behaviour_bogomolni2016)
+add wave -position end  sim:/examtimelinetraining/a
+add wave -position end  sim:/examtimelinetraining/b
+add wave -position end  sim:/examtimelinetraining/d
+add wave -position end  sim:/examtimelinetraining/f
+add wave -position end  sim:/examtimelinetraining/g_d
+add wave -position end  sim:/examtimelinetraining/e_d
+add wave -position end  sim:/examtimelinetraining/reset
+add wave -position end  sim:/examtimelinetraining/clk
+add wave -position 4  /examtimelinetraining/line__18/c
+run
+restart
+run
+run
+restart
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_bogomolni2016)
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_bogomolni2016)
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_bogomolni2016)
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# 2 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_bogomolni2016)
+run
+quit -sim
+# End time: 20:48:29 on Jul 25,2017, Elapsed time: 1:49:08
+# Errors: 0, Warnings: 0
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+vsim work.examtimelinetraining(behaviour_teppner2006)
+# vsim work.examtimelinetraining(behaviour_teppner2006) 
+# Start time: 21:07:11 on Jul 25,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+add wave -position end  sim:/examtimelinetraining/a
+add wave -position end  sim:/examtimelinetraining/b
+add wave -position end  sim:/examtimelinetraining/d
+add wave -position end  sim:/examtimelinetraining/e
+add wave -position end  sim:/examtimelinetraining/g
+add wave -position end  sim:/examtimelinetraining/clk
+add wave -position 2  /examtimelinetraining/line__14/c
+run
+# Break key hit
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+# Warning in wave window restart: (vish-4014) No objects found matching '/examtimelinetraining/line__14/c'. 
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+run
+# Compile of teppner_2006.vhd was successful.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+force -freeze sim:/examtimelinetraining/clk 1 5, 0 {10 ps} -r 10
+run
+restart
+force -freeze sim:/examtimelinetraining/clk 1 5, 0 {5005 ps} -r 10000
+run
+restart
+run
+restart
+force -freeze sim:/examtimelinetraining/clk 1 5000, 0 {15000 ps} -r 20000
+run
+restart
+force -freeze sim:/examtimelinetraining/clk 1 5000, 0 {15000 ps} -r 20000
+run
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# 3 compiles, 0 failed with no errors.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+run
+restart
+force -freeze sim:/examtimelinetraining/clk 1 5000, 0 {15000 ps} -r 20000
+run
+restart
+force -freeze sim:/examtimelinetraining/clk 1 2500, 0 {7500 ps} -r 10000
+run
+add wave -position end  /examtimelinetraining/line__15/c
+restart
+force -freeze sim:/examtimelinetraining/clk 1 2500, 0 {7500 ps} -r 10000
+run
+# Compile of teppner_2006.vhd was successful.
+restart
+# Loading work.examtimelinetraining(behaviour_teppner2006)
+force -freeze sim:/examtimelinetraining/clk 1 2500, 0 {7500 ps} -r 10000
+run
+quit -sim
+# End time: 22:13:45 on Jul 25,2017, Elapsed time: 1:06:34
+# Errors: 1, Warnings: 0
+# Compile of teppner2005.vhd was successful.
+# Compile of bogomolni2016.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# Compile of teppner_2012.vhd failed with 13 errors.
+# 4 compiles, 1 failed with 13 errors.
+# Compile of teppner_2012.vhd failed with 5 errors.
+# Compile of teppner_2012.vhd failed with 1 errors.
+# Compile of teppner_2012.vhd was successful.
+vsim work.examtimelinetraining(behaviour_teppner2012)
+# vsim work.examtimelinetraining(behaviour_teppner2012) 
+# Start time: 23:36:51 on Jul 25,2017
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.examtimelinetraining(behaviour_teppner2012)
+add wave -position end  sim:/examtimelinetraining/a
+add wave -position end  sim:/examtimelinetraining/b
+add wave -position end  sim:/examtimelinetraining/d
+add wave -position end  sim:/examtimelinetraining/e
+add wave -position end  sim:/examtimelinetraining/clk
+add wave -position end  sim:/examtimelinetraining/r
+add wave -position 4  /examtimelinetraining/line__16/c
+run
+# Can't move the Now cursor.
+quit -sim
+# End time: 12:03:59 on Jul 26,2017, Elapsed time: 12:27:08
+# Errors: 1, Warnings: 0
+# Compile of parity12bit.vhd failed with 5 errors.
+# Compile of parity12bit.vhd failed with 6 errors.
+# Compile of parity12bit.vhd failed with 4 errors.
+# Compile of parity12bit.vhd failed with 2 errors.
+# Compile of parity12bit.vhd failed with 4 errors.
+# Compile of parity12bit.vhd failed with 5 errors.
+# Compile of parity12bit.vhd failed with 4 errors.
+# Compile of parity12bit.vhd failed with 2 errors.
+# Compile of parity12bit_while.vhd failed with 1 errors.
+# Compile of parity12bit_while.vhd failed with 3 errors.
+# Compile of parity12bit_while.vhd failed with 5 errors.
+# Compile of parity12bit_while.vhd failed with 1 errors.
+# Compile of parity12bit_while.vhd failed with 1 errors.
+# Compile of parity12bit_while.vhd failed with 11 errors.
+# Compile of parity12bit_while.vhd failed with 11 errors.
+# Compile of parity12bit_while.vhd failed with 1 errors.
+# Compile of parity12bit_while.vhd failed with 13 errors.
+# Compile of parity12bit_while.vhd failed with 13 errors.
+# Compile of parity12bit_while.vhd failed with 13 errors.
+# Compile of parity12bit_while.vhd failed with 5 errors.
+# Compile of parity12bit_while.vhd failed with 4 errors.
+# Compile of parity12bit.vhd failed with 1 errors.
+# Compile of parity12bit.vhd failed with 1 errors.
+# Compile of parity12bit.vhd failed with 2 errors.
+# Compile of parity12bit.vhd failed with 2 errors.
+# Compile of parity12bit.vhd failed with 2 errors.
+# Compile of parity12bit.vhd was successful.
+# Compile of parity12bit.vhd was successful.
+# Compile of parity12bit_while.vhd was successful.
+# Compile of teppner_2006.vhd was successful.
+# Compile of counter_6bit.vhd failed with 1 errors.
+# Compile of counter_6bit.vhd failed with 1 errors.
+# Compile of counter_6bit.vhd failed with 1 errors.
+# Compile of counter_6bit.vhd failed with 2 errors.
+# Compile of counter_6bit.vhd failed with 2 errors.
+# Compile of counter_6bit.vhd failed with 2 errors.
+# Compile of counter_6bit.vhd failed with 1 errors.
+# Compile of counter_6bit.vhd failed with 1 errors.
+# Compile of counter_6bit.vhd failed with 2 errors.
+# Compile of counter_6bit.vhd failed with 2 errors.
+# Compile of counter_6bit.vhd failed with 4 errors.
+# Compile of counter_6bit.vhd failed with 3 errors.
+# Compile of counter_6bit.vhd was successful.
+# Compile of tb_counter_6bit.vhd failed with 1 errors.
+# Compile of tb_counter_6bit.vhd failed with 1 errors.
+# Compile of tb_counter_6bit.vhd failed with 1 errors.
+# Compile of tb_counter_6bit.vhd failed with 6 errors.
+# Compile of tb_counter_6bit.vhd failed with 6 errors.
+# Compile of tb_counter_6bit.vhd failed with 6 errors.
+# Compile of tb_counter_6bit.vhd failed with 1 errors.
+# Compile of tb_counter_6bit.vhd failed with 1 errors.
+# Compile of tb_counter_6bit.vhd failed with 2 errors.
+# Compile of tb_counter_6bit.vhd failed with 1 errors.
+# Compile of tb_counter_6bit.vhd was successful with warnings.
+# Compile of tb_counter_6bit.vhd failed with 2 errors.
+# Compile of tb_counter_6bit.vhd was successful with warnings.

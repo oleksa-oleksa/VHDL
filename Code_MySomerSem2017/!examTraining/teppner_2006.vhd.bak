@@ -25,7 +25,9 @@ VARIABLE c : std_logic;
 		d <= b;
 	  END IF;
 
-	  e <= c OR d AFTER 10 ns;
+	  e <= c OR d AFTER 9
+
+ ns;
 END PROCESS;
 
 END Behaviour_Teppner2006;

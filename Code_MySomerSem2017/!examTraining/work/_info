@@ -9,34 +9,34 @@ z2
 cModel Technology
 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/Lab5_Aufgabe1
 Eexamtimelinetraining
-Z0 w1501018580
+Z0 w1501413036
 Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
 Z3 dC:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining
-Z4 8C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd
-Z5 FC:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd
+Z4 8C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd
+Z5 FC:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd
 l0
 L4
 VgMCYGb>1d__[[?a4VNk@<2
 !s100 ?3L]aUFJ>2`WT4Kod3nBf0
 Z6 OV;C;10.5b;63
 32
-Z7 !s110 1501018585
+Z7 !s110 1501413040
 !i10b 1
-Z8 !s108 1501018585.000000
-Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd|
-Z10 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd|
+Z8 !s108 1501413040.000000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd|
+Z10 !s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd|
 !i113 1
 Z11 o-work work -2002 -explicit
 Z12 tExplicit 1 CvgOpt 0
-Abehaviour_teppner2012
+Abehaviour_teppner2006
 R1
 R2
 Z13 DEx4 work 20 examtimelinetraining 0 22 gMCYGb>1d__[[?a4VNk@<2
-l11
+l10
 L7
-VeF``_A]k>nM5dSLz=WhlT2
-!s100 Ej_^EGR>GReX?KJ:R]Ahc1
+VRM^_TPI?<Ja<J;PZ`A@3@3
+!s100 [1d7Kh=X;g2_A`Vf7LDf70
 R6
 32
 R7
@@ -47,27 +47,27 @@ R10
 !i113 1
 R11
 R12
-Abehaviour_teppner2006
+Abehaviour_teppner2012
 R1
 R2
 R13
-l10
+l11
 L7
-VRM^_TPI?<Ja<J;PZ`A@3@3
-!s100 [1d7Kh=X;g2_A`Vf7LDf70
+VeF``_A]k>nM5dSLz=WhlT2
+!s100 Ej_^EGR>GReX?KJ:R]Ahc1
 R6
 32
-Z14 !s110 1501018465
+!s110 1501018585
 !i10b 1
-Z15 !s108 1501018465.000000
-!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd|
-!s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd|
+!s108 1501018585.000000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd|
+!s107 C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd|
 !i113 1
 R11
 R12
-FC:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd
-w1501013281
-8C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd
+FC:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd
+w1501018580
+8C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2012.vhd
 Abehaviour_bogomolni2016
 R1
 R2
@@ -78,9 +78,9 @@ VIc0=V3KM<<O^1RGe7AK^m3
 !s100 ;]ef]hJ4FP2D8O6Z__BN13
 R6
 32
-R14
+Z14 !s110 1501018465
 !i10b 1
-R15
+Z15 !s108 1501018465.000000
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd|
 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd|
 !i113 1
@@ -155,7 +155,7 @@ R12
 Aeven
 R1
 R2
-Z28 DEx4 work 11 parity12bit 0 22 e^T1PjLO;UK6R[nTOI:8K1
+DEx4 work 11 parity12bit 0 22 e^T1PjLO;UK6R[nTOI:8K1
 l13
 L11
 VEP19A?Y_IX2MWnVliDf=[0
@@ -167,6 +167,92 @@ R24
 R25
 R26
 R27
+!i113 1
+R11
+R12
+Esixbitcounter
+Z28 w1501438817
+Z29 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z30 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R1
+R2
+R3
+Z31 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/counter_6bit.vhd
+Z32 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/counter_6bit.vhd
+l0
+L6
+VHJ1I0G876nZgimTd<n>Lf1
+!s100 RCgN=NiK[[>MMdJzU<D2[0
+R6
+32
+Z33 !s110 1501438843
+!i10b 1
+Z34 !s108 1501438843.000000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/counter_6bit.vhd|
+Z36 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/counter_6bit.vhd|
+!i113 1
+R11
+R12
+Abeha
+R29
+R30
+R1
+R2
+Z37 DEx4 work 13 sixbitcounter 0 22 HJ1I0G876nZgimTd<n>Lf1
+l17
+L15
+V42ZW?M`eS=:hYc4PJFA;Z1
+!s100 OlcnZ;?H]nL:eKRodBbTN1
+R6
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Etb_counter_6bit
+Z38 w1501437283
+R29
+R30
+R1
+R2
+R3
+Z39 8C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/tb_counter_6bit.vhd
+Z40 FC:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/tb_counter_6bit.vhd
+l0
+L5
+Vghb^i3n0g7@:4F<;WCVXG3
+!s100 0;3imhbVe9HB6ig2Xa55g2
+R6
+32
+Z41 !s110 1501437330
+!i10b 1
+Z42 !s108 1501437330.000000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/tb_counter_6bit.vhd|
+Z44 !s107 C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/tb_counter_6bit.vhd|
+!i113 1
+R11
+R12
+Atestbench
+R29
+R30
+R1
+R2
+DEx4 work 15 tb_counter_6bit 0 22 ghb^i3n0g7@:4F<;WCVXG3
+l20
+L8
+VhSkMS;;V=V`?WLD;KDZoN3
+!s100 QUVeh]Ni2HAX2;7TfJ6<D0
+R6
+32
+R41
+!i10b 1
+R42
+R43
+R44
 !i113 1
 R11
 R12

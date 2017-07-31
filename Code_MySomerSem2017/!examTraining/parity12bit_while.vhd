@@ -15,7 +15,7 @@ BEGIN -- arc
 PROCESS(clk)
 VARIABLE i : INTEGER;
 BEGIN
-i := 0;
+i := 1;
 xor1 <= dataword(0);
 while (i < 12) LOOP
   xor1 <= xor1 XOR dataword(i);

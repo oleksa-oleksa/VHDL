@@ -6,25 +6,41 @@ Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  
 -- Compiling entity examTimeLineTraining
 -- Compiling architecture Behaviour_Teppner2012 of examTimeLineTraining
 
-} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/parity12bit_while.vhd {0 {vcom -work work -2002 -explicit -stats=none {C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\parity12bit_while.vhd}
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/parity12bit.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\parity12bit.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity parity12bit
 -- Compiling architecture Even of parity12bit
-** Error: C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\parity12bit_while.vhd(15): Illegal concurrent statement.
-** Error: C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\parity12bit_while.vhd(16): Illegal concurrent statement.
-** Error: C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\parity12bit_while.vhd(12): Variable declaration 'i' not allowed in this region.
-** Error: C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\parity12bit_while.vhd(19): VHDL Compiler exiting
 
-} {8.0 12.0} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/bogomolni2016.vhd
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
 -- Loading package STANDARD
 -- Loading package TEXTIO
 -- Loading package std_logic_1164
 -- Compiling entity examTimeLineTraining
 -- Compiling architecture Behaviour_Bogomolni2016 of examTimeLineTraining
+
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/counter_6bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/counter_6bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity sixBitCounter
+-- Compiling architecture Beha of sixBitCounter
+
+} {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/tb_counter_6bit.vhd {1 {vcom -work work -2002 -explicit -stats=none C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/tb_counter_6bit.vhd
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package std_logic_arith
+-- Loading package STD_LOGIC_UNSIGNED
+-- Compiling entity tb_counter_6bit
+-- Compiling architecture testbench of tb_counter_6bit
 
 } {} {}} C:/ENGINEERING/VHDL/Code_MySomerSem2017/!examTraining/teppner_2006.vhd {1 {vcom -work work -2002 -explicit -stats=none {C:\ENGINEERING\VHDL\Code_MySomerSem2017\!examTraining\teppner_2006.vhd}
 Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016

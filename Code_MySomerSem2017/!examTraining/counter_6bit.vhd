@@ -21,8 +21,8 @@ process (clk, reset, set)
 		s_counter <= "000000";
 	elsif (reset = '1' and set = '0') then
 		s_counter <= counter_start_custom;
-
 	end if;	
+
 	if (clk'event and clk = '1' and reset = '0') then
 		if (set = '0' and s_counter = "111111") then
 			s_counter <= counter_start_custom;

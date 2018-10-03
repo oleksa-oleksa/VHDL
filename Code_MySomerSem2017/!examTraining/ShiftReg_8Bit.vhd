@@ -22,4 +22,5 @@ begin
 	end loop;
 	sreg(0) <= D_in;
 end process;
+q_out <= sreg(7);
 end EightBitShift;

@@ -14,4 +14,5 @@
 */*.gpg
 */*.qtl
 */_info
-
+**/*.vhd.bak
+*/*.vhd.bak

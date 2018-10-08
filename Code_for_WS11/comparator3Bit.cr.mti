@@ -1,9 +1,0 @@
-C:/ENGINEERING/VHDL/Code_for_WS11/comparator_3bit.vhd {1 {vcom -work work -2008 -explicit -stats=none C:/ENGINEERING/VHDL/Code_for_WS11/comparator_3bit.vhd
-Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
--- Loading package STANDARD
--- Loading package TEXTIO
--- Loading package std_logic_1164
--- Compiling entity Comparator3Bit
--- Compiling architecture Compare3Bit of Comparator3Bit
-
-} {} {}}

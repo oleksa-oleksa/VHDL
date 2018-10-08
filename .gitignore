@@ -9,3 +9,7 @@ _info
 *.vhd.bak
 *.vhd.bak
 .DS_Store
+transcript
+*.do
+*.wlf
+work

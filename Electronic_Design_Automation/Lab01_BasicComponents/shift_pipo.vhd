@@ -22,8 +22,14 @@ begin
         if (reset = '1') then
             dout <= "0000";
 
-        elsif (rising_edge(clk) AND enable = '1') then       
-            dout <= din;    
+	-- shifting and output all bits
+        elsif (rising_edge(clk) AND enable = '0') then       
+          dout(3 downto 1) <= dout(2 downto 0);
+	  dout(0) <= '0';    
+
+	-- loading into internal register
+        elsif (rising_edge(clk) and enable = '1') then 
+	    dout <= din;  
         end if;      
     end process pipo;
 end Behav;

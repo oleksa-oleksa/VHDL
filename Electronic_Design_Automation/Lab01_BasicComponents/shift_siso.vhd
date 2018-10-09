@@ -28,9 +28,14 @@ begin
         if (reset = '1') then
             s := "0000";
 
-        elsif (rising_edge(clk) AND enable = '1') then           
-            s := (din & s(3 downto 1));
-       	    dout <= s(0);
+	-- shift the bits of internal register and output the single bit
+        elsif (rising_edge(clk) AND enable = '0') then           
+            dout <= s(3);
+	    s := s(2 downto 0) & '0';
+	
+	-- load the single bit as lsb in internal register
+	elsif (rising_edge(clk) AND enable = '1') then
+	    s(0) := din;  
         end if;      
     end process siso;
 end Behav;

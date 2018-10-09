@@ -17,15 +17,18 @@ end shift_sipo;
 architecture Behav of shift_sipo is
 
 begin
-    sipo : process (clk, reset, enable) is 
-                    
+    sipo : process (clk, reset, enable) is                     
     begin
         if (reset = '1') then
             dout <= "0000";
 
-        elsif (rising_edge(clk) AND enable = '1') then
-       
-    	    dout(3 downto 1) <= dout(2 downto 0);
+	-- shifting and output
+        elsif (rising_edge(clk) AND enable = '0') then
+            dout(3 downto 1) <= dout(2 downto 0);
+ 	    dout(0) <= '0';
+
+	-- load the single bit as lsb
+	 elsif (rising_edge(clk) AND enable = '1') then
  	    dout(0) <= din;
 	end if;      
     end process sipo;

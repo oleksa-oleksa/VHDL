@@ -16,15 +16,22 @@ entity shift_piso is
 end shift_piso;
 
 architecture Behav of shift_piso is
-variable s : std_logic_vector(3 downto 0) := "0000";  
+ 
 begin
-    pipo : process (clk, reset, enable) is                  
+    piso : process (clk, reset, enable) is                  
+    variable s : std_logic_vector(3 downto 0) := "0000";
     begin
         if (reset = '1') then
-            dout <= "0000";
+            s := "0000";
 
-        elsif (rising_edge(clk) AND enable = '1') then       
-            dout <= din;    
+	-- shifting and output the msb
+        elsif (rising_edge(clk) and enable = '0') then       
+            dout <= s(3);
+	    s := s(2 downto 0) & '0';
+
+	-- loading into internal register
+        elsif (rising_edge(clk) and enable = '1') then
+	   s := din;    
         end if;      
-    end process pipo;
+    end process piso;
 end Behav;

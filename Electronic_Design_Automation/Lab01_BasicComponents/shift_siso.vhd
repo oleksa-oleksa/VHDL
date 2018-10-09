@@ -26,14 +26,11 @@ begin
     
     begin
         if (reset = '1') then
-            dout <= "0000";
+            s := "0000";
 
         elsif (rising_edge(clk) AND enable = '1') then           
-            s(3 downto 1) <= s(2 downto 0 );
-       	    s(0) <= din;
+            s := (din & s(3 downto 1));
+       	    dout <= s(0);
         end if;      
     end process siso;
-
-dout = s(3); -- shifted bit 
-
 end Behav;

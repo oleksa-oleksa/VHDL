@@ -1,7 +1,7 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.all;
 
--- For parallel in ? parallel out shift registers
+-- For parallel in parallel out shift registers
 -- all data bits appear on the parallel outputs immediately 
 --following the simultaneous entry of the data bits. 
 

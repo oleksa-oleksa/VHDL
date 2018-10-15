@@ -26,7 +26,7 @@ BEGIN
 		nQD <= NOT D;
 	ELSIF (CLR'event AND CLR = '1') THEN
 		QD <= '0';
-		nQD <= NOT D;
+		nQD <= NOT QD;
         END IF;
 END PROCESS;
 END Behav;

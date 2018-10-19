@@ -1,14 +1,14 @@
 library IEEE;
 use IEEE.STD_LOGIC_1164.ALL;
 
-ENTITY Bit_sequence IS
+ENTITY bit_sequence_a IS
 PORT (	CLK, RST, X : IN std_logic;
-			Y : OUT std_logic;
-			Z : OUT std_logic_vector(8 downto 0));
-END Bit_sequence;
+	Y : OUT std_logic;
+	Z : OUT std_logic_vector(8 downto 0));
+END bit_sequence_a;
 
 
-ARCHITECTURE behave OF Bit_sequence IS
+ARCHITECTURE behave OF bit_sequence_a IS
 
 TYPE States IS (A, B, C, D, E, F, G, H, I);
 SIGNAL state, nextState: States;
@@ -17,15 +17,15 @@ BEGIN
 
 	first : PROCESS (CLK, RST, state)
 	BEGIN
---		IF (RST = '0') THEN state <= A; Z <= ( others => '0' );
---		ELSIF CLK'event AND CLK = '1' THEN state <= nextState;
-		IF CLK'event AND CLK = '1' THEN
-			IF (RST = '0') THEN
-				state <= A;
-			ELSE
-				state <= nextState;
-			END IF;
-		END IF;	
+		-- reset the state machine
+		IF (RST = '0') THEN
+			state <= A;
+		END IF;
+		-- next state
+		IF (rising_edge(CLK) AND RST = '1') THEN
+			state <= nextState;
+		END IF;
+		
 	END PROCESS first;
 	
 	second : PROCESS (state, X)

@@ -16,20 +16,25 @@ entity shift_pipo is
 end shift_pipo;
 
 architecture Behav of shift_pipo is
+
+signal s_qi : STD_LOGIC_VECTOR(3 downto 0) := "UUUU";
+signal s_qo : STD_LOGIC_VECTOR(3 downto 0) := "UUUU";
+
 begin
     pipo : process (clk, reset, enable) is                  
     begin
         if (reset = '1') then
-            dout <= "0000";
+            s_qi <= "0000";
+ 	    s_qo <= "0000";
 
 	-- shifting and output all bits
-        elsif (rising_edge(clk) AND enable = '0') then       
-          dout(3 downto 1) <= dout(2 downto 0);
-	  dout(0) <= '0';    
+        elsif (rising_edge(clk) AND enable = '1') then       
+          s_qi <= din;    
 
 	-- loading into internal register
-        elsif (rising_edge(clk) and enable = '1') then 
-	    dout <= din;  
+        elsif (falling_edge(clk) and enable = '1') then 
+	    s_qo <= s_qi;  
         end if;      
     end process pipo;
+    dout <= s_qo;
 end Behav;

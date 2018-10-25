@@ -1,63 +1,56 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
-ENTITY tb_one_bit_reg IS
-END tb_one_bit_reg;
+entity tb_one_bit_reg is
+end tb_one_bit_reg;
 
-ARCHITECTURE testbench OF tb_one_bit_reg IS
+-------------------------------
 
--- D-FLIPFLOP
-COMPONENT one_bit_reg
-PORT (   D : IN STD_LOGIC;
-	LD : In STD_LOGIC;	
-       CLK : IN STD_LOGIC;
-	CLR : IN STD_LOGIC;
-       QD, nQD : OUT STD_LOGIC
-);
-END COMPONENT;
+architecture test of tb_one_bit_reg is
 
--- define input stimul signal
-SIGNAL s_D : STD_LOGIC :='0';
-SIGNAL s_LD : STD_LOGIC :='0';
-SIGNAL s_clk : STD_LOGIC :='0';
-SIGNAL s_clr : STD_LOGIC :='0'; 
-SIGNAL s_QD, s_nQD : STD_LOGIC;
+   component one_bit_reg
 
-BEGIN
+   port
+   (
+      ld, clr, clk   :  in std_logic;
+      d_0            :  in std_logic;
+      q_0            : out std_logic
+   );
+   end component;
 
-dut: ENTITY work.one_bit_reg
-PORT MAP (
-     D => s_D,
-     LD => s_LD,
-     CLK => s_clk,
-     CLR => s_clr,
-     QD => s_QD,
-     nQD => s_nQD
-);
+   signal ld, clr, clk, d_0   : std_logic;
+   signal q_0                 : std_logic;
 
--- common processes in the separate process
-data_stimul: PROCESS
-BEGIN
-    s_D <= '0'; WAIT FOR 8 ns; 
-    s_D <= '1'; WAIT FOR 12 ns; 
-END PROCESS;
+begin
 
-clock_stimul: PROCESS 
-BEGIN
-    s_clk <= '0'; WAIT FOR 16 ns;
-    s_clk <= '1'; WAIT FOR 24 ns;
-END PROCESS; 
+   dut: one_bit_reg
+   port map
+   (
+      ld, clr, clk, d_0, q_0
+   );
 
-enable_stimul: PROCESS
-BEGIN
-    s_LD <= '0'; WAIT FOR 32 ns;
-    s_LD <= '1'; WAIT FOR 48 ns;
-END PROCESS;
+   clk_signal : process
+   begin
+      clk   <= '0';
+      wait for 5 ns;
+      clk   <= '1';
+      wait for 5 ns;
+   end process;
 
-clear_stimul: PROCESS
-BEGIN
-    s_clr <= '0'; WAIT FOR 74 ns;
-    s_clr <= '1'; WAIT FOR 96 ns;
-END PROCESS;
+   clr   <= '0' after   0 ns, '1' after   2 ns,
+            '0' after  15 ns;
+   ld    <= '1' after   0 ns, '0' after  10 ns,
+            '1' after  35 ns, '0' after 140 ns;
+   d_0   <= '0' after   0 ns, '1' after   7 ns,
+            '0' after  17 ns, '1' after  26 ns, 
+            '0' after  40 ns, '1' after  52 ns, 
+            '0' after  59 ns, '1' after  66 ns, 
+            '0' after  78 ns, '1' after  86 ns, 
+            '0' after 100 ns, '1' after 110 ns, 
+            '0' after 120 ns, '1' after 130 ns, 
+            '0' after 140 ns, '1' after 150 ns, 
+            '0' after 160 ns, '1' after 170 ns;
 
-END testbench;
+
+end test;
+

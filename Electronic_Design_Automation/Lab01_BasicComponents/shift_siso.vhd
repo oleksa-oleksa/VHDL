@@ -19,23 +19,26 @@ end shift_siso;
 
 architecture Behav of shift_siso is
 
+signal s_qi : STD_LOGIC_VECTOR(3 downto 0) := "UUUU";
+signal s_qo : STD_LOGIC_VECTOR(3 downto 0) := "UUUU";
+
 begin
-    siso : process (clk, reset, enable) is 
-    
-    variable s : std_logic_vector(3 downto 0) := "0000";                 
-    
+    siso : process (clk, reset, enable) is                
     begin
         if (reset = '1') then
-            s := "0000";
+            s_qi <= "0000";
+ 	    s_qo <= "0000";
 
-	-- shift the bits of internal register and output the single bit
-        elsif (rising_edge(clk) AND enable = '0') then           
-            dout <= s(3);
-	    s := s(2 downto 0) & '0';
+	-- shift the bits of internal register and load the single bit
+        elsif (rising_edge(clk) AND enable = '1') then           
+            s_qi(3 downto 1)  <= s_qi(2 downto 0);
+	    s_qi(0) <= din;
 	
-	-- load the single bit as lsb in internal register
-	elsif (rising_edge(clk) AND enable = '1') then
-	    s(0) := din;  
+	-- output from the internal register
+	elsif (falling_edge(clk) AND enable = '1') then
+	    s_qo <= s_qi;  
         end if;      
     end process siso;
+    -- final output
+    dout <= s_qo(3);
 end Behav;

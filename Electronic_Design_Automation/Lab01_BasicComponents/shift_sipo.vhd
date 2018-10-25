@@ -16,21 +16,26 @@ end shift_sipo;
 
 architecture Behav of shift_sipo is
 
+signal s_qi : STD_LOGIC_VECTOR(3 downto 0) := "UUUU";
+signal s_qo : STD_LOGIC_VECTOR(3 downto 0) := "UUUU";
+
 begin
     sipo : process (clk, reset, enable) is                     
     begin
         if (reset = '1') then
-            dout <= "0000";
+            s_qi <= "0000";
+ 	    s_qo <= "0000";
 
 	-- shifting and output
-        elsif (rising_edge(clk) AND enable = '0') then
-            dout(3 downto 1) <= dout(2 downto 0);
- 	    dout(0) <= '0';
+        elsif (rising_edge(clk) AND enable = '1') then
+            s_qi(3 downto 1) <= s_qi(2 downto 0);
+ 	    s_qi(0) <= din;
 
 	-- load the single bit as lsb
-	 elsif (rising_edge(clk) AND enable = '1') then
- 	    dout(0) <= din;
+	 elsif (falling_edge(clk) AND enable = '1') then
+ 	    s_qo <= s_qi;
 	end if;      
     end process sipo;
-
+    -- final output
+    dout <= s_qo;
 end Behav;

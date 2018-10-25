@@ -37,8 +37,8 @@ PORT MAP (
 -- common processes in the separate process
 data_stimul: PROCESS
 BEGIN
-    s_din <= '1'; WAIT FOR 120 ns;
-    s_din <= '0'; WAIT FOR 30 ns;
+    s_din <= '1'; WAIT FOR 25 ns;
+    s_din <= '0'; WAIT FOR 25 ns;
 END PROCESS;
 
 clock_stimul: PROCESS 
@@ -49,8 +49,8 @@ END PROCESS;
 
 enable_stimul: PROCESS
 BEGIN
-    s_enable <= '1'; WAIT FOR 20 ns;
-    s_enable <= '0'; WAIT FOR 80 ns;
+    s_enable <= '0'; WAIT FOR 20 ns;
+    s_enable <= '1'; WAIT FOR 180 ns;
 END PROCESS;
 
 reset_stimul: PROCESS

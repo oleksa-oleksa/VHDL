@@ -49,8 +49,8 @@ END PROCESS;
 
 enable_stimul: PROCESS
 BEGIN
-    s_enable <= '1'; WAIT FOR 20 ns;
-    s_enable <= '0'; WAIT FOR 80 ns;
+    s_enable <= '0'; WAIT FOR 20 ns;
+    s_enable <= '1'; WAIT FOR 180 ns;
 END PROCESS;
 
 reset_stimul: PROCESS

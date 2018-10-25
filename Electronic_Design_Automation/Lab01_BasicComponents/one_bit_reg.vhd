@@ -1,32 +1,34 @@
-LIBRARY ieee;
-USE ieee.std_logic_1164.all;
+library ieee;
+use ieee.std_logic_1164.all;
 
-ENTITY one_bit_reg IS
-PORT (   D : IN STD_LOGIC;
-	LD : IN STD_LOGIC;	
-       CLK : IN STD_LOGIC;
-	CLR : IN STD_LOGIC;
-       QD, nQD : OUT STD_LOGIC
-      );
-END one_bit_reg;
+entity one_bit_reg is
+   port
+   (
+      ld, clr, clk   :  in std_logic;
+      d_0            :  in std_logic;
+      q_0            : out std_logic
+   );
+end one_bit_reg;
 
--- D-FlipFlop reacts only on rising clock edge
+architecture behave of one_bit_reg is
+   signal q_intern, q_out  : std_logic := 'U';                       -- intern signal for master slave
+begin
+   process ( clk, clr )
+   begin
+      if ( clr = '1' ) then                                          -- clr, async = most priority
+         q_intern <= '0';
+         q_out    <= '0';
+      else
+         if ( ld = '1' ) then
+            if ( rising_edge( clk ) ) then
+               q_intern    <= d_0;
+            elsif ( falling_edge( clk ) ) then
+               q_out       <= q_intern;
+            end if;
+         end if;
+      end if;
+   end process;
 
-ARCHITECTURE Behav OF one_bit_reg IS
-BEGIN
+   q_0   <= q_out;
+end behave;
 
--- Using rising_edge instead of clock'event to avoid unexpected trigger in std_logic
--- This function returns a value "TRUE" only when the present value is '1' and the last value is '0'.
--- If the past value is something like 'Z','U' etc. then it will return a "FALSE"
-
-PROCESS (CLK, CLR, LD) -- Sensivity list
-BEGIN
-	IF (rising_edge(CLK) AND (LD = '1') AND (CLR = '0')) THEN
-		QD <= D;
-		nQD <= NOT D;
-	ELSIF (CLR'event AND CLR = '1') THEN
-		QD <= '0';
-		nQD <= NOT QD;
-        END IF;
-END PROCESS;
-END Behav;

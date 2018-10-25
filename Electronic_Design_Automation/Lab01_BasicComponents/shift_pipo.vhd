@@ -27,7 +27,7 @@ begin
             s_qi <= "0000";
  	    s_qo <= "0000";
 
-	-- shifting and output all bits
+	-- loading into internal register
         elsif (rising_edge(clk) AND enable = '1') then       
           s_qi <= din;    
 

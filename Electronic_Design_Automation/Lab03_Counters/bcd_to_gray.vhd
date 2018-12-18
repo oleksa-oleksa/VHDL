@@ -16,7 +16,7 @@ begin
    begin
       if ( unsigned(bcd_in) < 10 ) then                              -- valid BCD range
          gray_out(3) <= bcd_in(3);                                   --/
-         gray_out(2) <= bcd_in(3) or bcd_in(2);                      --| via KV Diagram
+         gray_out(2) <= bcd_in(3) xor bcd_in(2);                      --| via KV Diagram
          gray_out(1) <= bcd_in(2) xor bcd_in(1);                     --|
          gray_out(0) <= bcd_in(1) xor bcd_in(0);                     --\
       else                                                           -- if bcd > 9 => ERROR

@@ -283,9 +283,9 @@ Die Siebensegmentanzeige eignet sich auch zur Darstellung von Sedezimal-Code ode
 
 \subsection{Aufgabenstellungen A}
 
-\lstinputlisting[caption=State Machine VHDL Code]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_sequence_a.vhd}
+\lstinputlisting[caption=State Machine VHDL Code]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_seq_ff_v1.vhd}
 
-\lstinputlisting[caption=State Machine Testbench]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_sequence_a_tb.vhd}
+\lstinputlisting[caption=State Machine Testbench]{./../Electronic_Design_Automation/Lab02_BitSequence/tb_bit_seq.vhd}
 
 \begin{figure}[!hb]
 	\centering
@@ -293,7 +293,20 @@ Die Siebensegmentanzeige eignet sich auch zur Darstellung von Sedezimal-Code ode
 	\captionof{figure}{State Machine Modelsim Simulation}
 \end{figure}
 
+\clearpage
 \subsection{Aufgabenstellungen B}
+\lstinputlisting[caption=State Machine VHDL Code]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_seq_ff_v2.vhd}
+
+\lstinputlisting[caption=State Machine Testbench]{./../Electronic_Design_Automation/Lab02_BitSequence/tb_bit_seq.vhd}
+
+\begin{figure}[!hb]
+	\centering
+	\fbox{\includegraphics[width=1\textwidth]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_sequence_simulation_a.png}}
+	\captionof{figure}{State Machine Modelsim Simulation}
+\end{figure}
+
+\clearpage
+\subsection{Aufgabenstellungen C}
 \lstinputlisting[caption=State Machine VHDL Code]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_sequence_b.vhd}
 
 \lstinputlisting[caption=State Machine Testbench]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_sequence_b_tb.vhd}
@@ -303,10 +316,6 @@ Die Siebensegmentanzeige eignet sich auch zur Darstellung von Sedezimal-Code ode
 	\fbox{\includegraphics[width=1\textwidth]{./../Electronic_Design_Automation/Lab02_BitSequence/bit_sequence_simulation_a.png}}
 	\captionof{figure}{State Machine Modelsim Simulation}
 \end{figure}
-
-\subsection{Aufgabenstellungen C}
-
-Die Aufgabenstellungen A und B wurden mit der CASE Anweisung innerhalb eines PROCESS-Blocks geschrieben, da es uns schon bekannt ist, dass diese Lösung effizienter ist und wurde uns während der Vorlesung Digital Technik empfohlen.
 
 \clearpage
 \section{Laboraufgaben: 3. Takte, Zähler und Zeitgeber}
@@ -377,9 +386,10 @@ In Abbildung \ref{fig:l3-scd} ist das vereinfachte Systemschaltbild zur Aufgaben
 \begin{figure}[!hb]
 	\centering
 	\fbox{\includegraphics[width=1\textwidth]{./../Electronic_Design_Automation/Lab03_Counters/codierung_simulation.png}}
-	\captionof{figure}{State Machine Modelsim Simulation}
+	\captionof{figure}{Modelsim Simulation}
 \end{figure}
 
+\clearpage
 \subsection{2-Digit BCD-Arithmetik}
 
 \subsection{3-Digit BCD-Zähler und 24h-Uhr}

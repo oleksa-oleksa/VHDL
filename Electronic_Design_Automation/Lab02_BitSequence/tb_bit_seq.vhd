@@ -4,10 +4,7 @@ use ieee.std_logic_1164.all;
 entity tb_bit_seq is
 end tb_bit_seq;
 
--------------------------------
-
 architecture test of tb_bit_seq is
-
    component bit_seq_ff_v2
    port
    (
@@ -20,13 +17,11 @@ architecture test of tb_bit_seq is
    signal clk, rst, x, y  :std_logic;
 
 begin
-
    dut: bit_seq_ff_v2
    port map
    (
       clk, rst, x, y
    );
-
    process
    begin
       clk <= '0'; wait for 5 ns;
@@ -38,7 +33,5 @@ begin
             '0' after  60 ns, '0' after  70 ns,
             '0' after  80 ns, '1' after 100 ns,
             '0' after 110 ns, '1' after 120 ns;
-
-
 end test;
 

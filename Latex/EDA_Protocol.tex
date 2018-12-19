@@ -391,8 +391,28 @@ In Abbildung \ref{fig:l3-scd} ist das vereinfachte Systemschaltbild zur Aufgaben
 
 \clearpage
 \subsection{2-Digit BCD-Arithmetik}
+In Abbildung \ref{fig:l32-scd} ist das Systemschaltbild einer Arithmetischen Einheit zur Summen- und Differenzberechnung zweier 2-Digit BCD-Zahlen dargestellt (Zahlenbereich $-99 \leq N_{BCD} \leq +99$). Die BCD-Zahlen werden als packed BCD über die Schalter des Entwicklungsboards eingegeben. Zu Steuerung der Arithmetischen Einheit und zur Vorzeicheneingabe werden die Schalter und Taster des Entwicklungsboards verwendet. Der eingegebene Binärcode wird zur Kontrolle mittels der LEDs angezeigt.
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=.6\textwidth,
+	page=62,
+	trim=4cm 6cm 3.5cm 14cm,
+	clip]
+	{../Labor_PL_Gregorius.pdf}
+	\caption{L3 Systemschaltbild zur Aufgabenstellung}
+	\label{fig:l32-scd}
+\end{figure}
+
+\lstinputlisting[caption=AddSub VHDL Code]{./../Electronic_Design_Automation/Lab03_Counters/addsub.vhd}
+
+\lstinputlisting[caption=2-Digit BCD-Arithmetik VHDL Code]{./../Electronic_Design_Automation/Lab03_Counters/bcdarith.vhd}
+
+\lstinputlisting[caption=2-Digit BCD-ArithmetikTestbench]{./../Electronic_Design_Automation/Lab03_Counters/bcdarith.vhd}
 
 \subsection{3-Digit BCD-Zähler und 24h-Uhr}
+\lstinputlisting[caption=3-Digit BCD-Zähler VHDL Code]{./../Electronic_Design_Automation/Lab03_Counters/threedigitcounter.vhd}
+
 
 \clearpage
 \section{Booth-Algorithmus mit Datenpfad und Steuerwerk}

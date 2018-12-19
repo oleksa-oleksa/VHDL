@@ -22,7 +22,7 @@ END COMPONENT dt_dlatch;
 
 BEGIN
 
--- 4 Registers, each remembers one binaty digit
+-- 4 Registers, each remembers one binary digit
 DLatch_0: dt_dlatch
 PORT MAP (D0, Enable, Q0);
 

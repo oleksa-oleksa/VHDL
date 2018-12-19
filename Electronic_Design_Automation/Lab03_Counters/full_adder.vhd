@@ -12,7 +12,7 @@ END full_adder;
 ARCHITECTURE full_adder_arc OF full_adder IS
 BEGIN
 
-sum <= x XOR y XOR ci ;
 cout <= (x AND y) OR (ci AND x) OR (ci AND y);
+sum <= (x XOR y) XOR ci ;
 
 END full_adder_arc;

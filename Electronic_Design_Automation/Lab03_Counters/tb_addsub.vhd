@@ -1,5 +1,6 @@
 library ieee;
 use ieee.std_logic_1164.all;
+use ieee.numeric_std.all;
 
 entity tb_addsub is
 end tb_addsub;
@@ -11,16 +12,15 @@ architecture test of tb_addsub is
 component addsub is
 port(  CLK, RST      : in std_logic;
 	  OP            : in std_logic;
-          A, B          : in std_logic_vector(7 downto 0);
-          R	 	: out std_logic_vector(7 downto 0); 
-	  Cout  	: out std_logic_vector(7 downto 0);
+          A1, B1, A2, B2 : in unsigned(3 downto 0);
+          R1, R2	: out unsigned(3 downto 0); 
+	  Cout  	: out std_logic;
           OVERFLOW      : out std_logic
 	);
 end component;
 
-signal s_clk, s_rst, s_op, s_ov : std_logic := '0';
-signal s_a, s_b, s_r : std_logic_vector(7 downto 0) := "UUUUUUUU";
-signal s_cout : std_logic_vector(7 downto 0) := "00000000";
+signal s_clk, s_rst, s_op, s_ov, s_cout : std_logic := '0';
+signal s_a1, s_b1, s_a2, s_b2, s_r1, s_r2 : unsigned(3 downto 0) := "UUUU";
 
 begin
 
@@ -29,11 +29,14 @@ PORT MAP (
 		CLK => s_clk,
 		RST => s_rst,
 		OP => s_op,
-		A => s_a,
-		B => s_b,
-		R => s_r,
-		OVERFLOW => s_ov,
-		Cout => s_cout
+		A1 => s_a1,
+		B1 => s_b1,
+		A2 => s_a2,
+		B2 => s_b2,
+		R1 => s_r1,
+		R2 => s_r2,
+		Cout => s_cout,		
+		OVERFLOW => s_ov
 );
 
 clock_stimul: PROCESS
@@ -50,17 +53,22 @@ END PROCESS;
 
 data_stimul_a: PROCESS
 BEGIN
-	s_a <= "00010010"; WAIT FOR 50 ns; -- 12 => 12 + 23 = 35 => 0011 0101
-	s_a <= "00001000"; WAIT FOR 50 ns; -- 08 => 8 + 79 = 87 => 1000 0111
-	s_a <= "10010111"; WAIT FOR 50 ns; -- 97 => 97 + 5 = (1)02 => 0000 0010
+	s_a1 <= "0010"; -- 12 => 12 + 23 = 35 => 0011 0101
+	s_a2 <= "0001"; WAIT FOR 50 ns; -- 12 => 12 + 23 = 35 => 0011 0101
+	s_a1 <= "1000";  -- 08 => 8 + 71 = 79 => 0111 1001
+	s_a2 <= "0000"; WAIT FOR 50 ns; -- 08 => 8 + 79 = 87 => 1000 0111
+	s_a1 <= "0010"; -- 92 => 92 + 5 = 97 => 1001 0111
+	s_a2 <= "1001"; WAIT FOR 50 ns; -- 97 => 97 + 5 = (1)02 => 0000 0010
 END PROCESS;
 
 data_stimul_b: PROCESS
 BEGIN
-	s_b <= "00100011"; WAIT FOR 50 ns; -- 23
-	s_b <= "01111001"; WAIT FOR 50 ns; -- 79
-	s_b <= "00000101"; WAIT FOR 50 ns; -- 5
+	s_b1 <= "0011"; -- 23
+	s_b2 <= "0010"; WAIT FOR 50 ns; -- 23
+	s_b1 <= "0001"; -- 71
+	s_b2 <= "0111"; WAIT FOR 50 ns; -- 71
+	s_b1 <= "0101";  -- 05
+	s_b2 <= "0000"; WAIT FOR 50 ns; -- 5
 END PROCESS;
-
 end test;
 

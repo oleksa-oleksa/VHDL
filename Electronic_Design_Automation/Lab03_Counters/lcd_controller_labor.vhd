@@ -63,6 +63,7 @@ ARCHITECTURE LCD_DISPLAY_arch OF LCD_DISPLAY_nty IS
   
   signal lcd_display_string          : character_string;
   
+  signal lcd_display_string_00       : character_string;
   signal lcd_display_string_01       : character_string;
   signal lcd_display_string_02       : character_string;
   signal lcd_display_string_03       : character_string;
@@ -73,8 +74,7 @@ ARCHITECTURE LCD_DISPLAY_arch OF LCD_DISPLAY_nty IS
   signal lcd_display_string_08       : character_string;
   signal lcd_display_string_09       : character_string;
   signal lcd_display_string_10       : character_string;
-  signal lcd_display_string_11       : character_string;
-  
+ 
   signal data_bus_value, next_char   : STD_LOGIC_VECTOR(7 downto 0);
   signal clk_count_400hz             : STD_LOGIC_VECTOR(23 downto 0);
   signal char_count                  : STD_LOGIC_VECTOR(4 downto 0);
@@ -235,7 +235,7 @@ LCD_CHAR_ARRAY(3) <= LCD_CHAR_ARRAY_3;
 -- <- = x"7F",
 
 
- lcd_display_string_01 <= 
+ lcd_display_string_00 <= 
   (
 -- Line 1    C    o     d     e     :      ws     
           x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
@@ -243,186 +243,114 @@ LCD_CHAR_ARRAY(3) <= LCD_CHAR_ARRAY_3;
 -- Line 2   0    0      0     0      ws
           x"30",x"30",x"30",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"  
    );
-   
-   
-   
-   
-   
-   
-   
+      
 --=====================================================================================================================
-   lcd_display_string_02 <= 
+   lcd_display_string_01 <= 
   (
--- Line 1    B    l     u     e    t      o     o     t     h          L      i     n     k 
-          x"42",x"6C",x"75",x"65",x"74",x"6F",x"6F",x"74",x"68",x"20",x"4C",x"69",x"6E",x"6B",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->    C     O     N     N      E    C      T    E     D
-          x"7E",x"43",x"4F",x"4E",x"4E",x"45",x"43",x"54",x"45",x"44",x"20",x"20",x"20",x"20",x"20",x"20"  
+-- Line 2   0    0      0     1      ws
+          x"30",x"30",x"30",x"31",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"    
    ); 
    
 
-
-
-
+--=====================================================================================================================  
+   lcd_display_string_02 <= 
+    (
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
+   
+-- Line 2   0    0      1     0      ws
+          x"30",x"30",x"31",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"  
+   );
+   
 --=====================================================================================================================  
    lcd_display_string_03 <= 
     (
--- Line 1    C    h      a     r     g     i     n      g  
-          x"43",x"68",x"61",x"72",x"67",x"69",x"6E",x"67",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    2     5 
-          x"7E",x"25",x"32",x"35",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   0    0      1     1      ws
+          x"30",x"30",x"31",x"31",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"  
    );
    
-   
-
-
-
-
 --====================================================================================================================== 
    lcd_display_string_04 <= 
      (
--- Line 1    C    h      a     r     g     i     n      g  
-          x"43",x"68",x"61",x"72",x"67",x"69",x"6E",x"67",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    5     0 
-          x"7E",x"25",x"35",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   0    1      0     0      ws
+          x"30",x"31",x"30",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
-   
-   
-   
-   
-   
-
-
-
-
-
 
 --====================================================================================================================== 
    lcd_display_string_05 <= 
         (
--- Line 1    C    h      a     r     g     i     n      g  
-          x"43",x"68",x"61",x"72",x"67",x"69",x"6E",x"67",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    7     5 
-          x"7E",x"25",x"37",x"35",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   0    1      0     1      ws
+          x"30",x"31",x"30",x"31",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
    
-   
-    
-   
-
-
-
-
-
-
 --=======================================================================================================================  
    lcd_display_string_06 <= 
        (
--- Line 1    C    h      a     r     g     i     n      g  
-          x"43",x"68",x"61",x"72",x"67",x"69",x"6E",x"67",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    1     0      0
-          x"7E",x"25",x"31",x"30",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   0    1      1     0      ws
+          x"30",x"31",x"31",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
    
-   
-   
-   
-
-
-
-
-
-
 --======================================================================================================================== 
    lcd_display_string_07 <= 
    (
--- Line 1    B    a      t     t     e    r     y          L     e     v      e    l 
-          x"42",x"61",x"74",x"74",x"65",x"72",x"79",x"20",x"4C",x"65",x"76",x"65",x"6C",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    2     5 
-          x"7E",x"25",x"32",x"35",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   0    1      1     1      ws
+          x"30",x"31",x"31",x"31",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
    
-   
-   
-
-
-
-
-
 --=========================================================================================================================   
    lcd_display_string_08 <= 
     (
---- Line 1    B    a      t     t     e    r     y          L     e     v      e    l 
-          x"42",x"61",x"74",x"74",x"65",x"72",x"79",x"20",x"4C",x"65",x"76",x"65",x"6C",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    5     0 
-          x"7E",x"25",x"35",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   1    0      0     0      ws
+          x"31",x"30",x"30",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
    
-   
-   
-
-
-
 --==========================================================================================================================   
    lcd_display_string_09 <= 
     (
--- Line 1    B    a      t     t     e    r     y          L     e     v      e    l 
-          x"42",x"61",x"74",x"74",x"65",x"72",x"79",x"20",x"4C",x"65",x"76",x"65",x"6C",x"20",x"20",x"20",
+-- Line 1    C    o     d     e     :      ws     
+          x"43",x"6F",x"64",x"65",x"3A",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    7     5 
-          x"7E",x"25",x"37",x"35",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   1     0     0     1      ws
+          x"31",x"30",x"30",x"31",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
-   
-   
-   
-   
-   
-   
---===========================================================================================================================  
+
+--==========================================================================================================================   
    lcd_display_string_10 <= 
     (
--- Line 1    B    a      t     t     e    r     y          L     e     v      e    l 
-          x"42",x"61",x"74",x"74",x"65",x"72",x"79",x"20",x"4C",x"65",x"76",x"65",x"6C",x"20",x"20",x"20",
+-- Line 1    B    e    u      t      h      ws     
+          x"42",x"65",x"75",x"74",x"68",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",
    
--- Line 2   ->     %    1     0      0
-          x"7E",x"25",x"31",x"30",x"30",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20" 
+-- Line 2   ws
+          x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20",x"20"   
    );
    
-   
-   
-
-
-   
---============================================================================================================================  
-   lcd_display_string_11 <= 
-    (
--- Line 1                     B    L      U     E     T     O     O     T     H
-          x"20",x"20",x"20",x"42",x"4C",x"55",x"45",x"54",x"4F",x"4F",x"54",x"48",x"20",x"20",x"20",x"20",
-   
--- Line 2                C     O     N    T      R     O     L    L     E      R
-          x"20",x"20",x"43",x"4F",x"4E",x"54",x"52",x"4F",x"4C",x"4C",x"45",x"52",x"20",x"20",x"0"&hex_display_data(7 downto 4),x"0"&hex_display_data(3 downto 0)
-   );
-   
-
-
-
 -------------------------------------------------------------------------------------------------------
 -- BIDIRECTIONAL TRI STATE LCD DATA BUS
    data_bus <= data_bus_value when lcd_rw_int = '0' else "ZZZZZZZZ";
    
 -- LCD_RW PORT is assigned to it matching SIGNAL 
  lcd_rw <= lcd_rw_int;
- 
- 
- 
- 
- 
  
 
 ------------------------------------ STATE MACHINE FOR LCD SCREEN MESSAGE SELECT -----------------------------
@@ -434,58 +362,42 @@ BEGIN
 
      CASE (LCD_CHAR_ARRAY) IS
           
-          -- Bluetooth Disconnected
        WHEN "0000" =>
             next_char <= lcd_display_string_01(CONV_INTEGER(char_count));
-                                                                          
-          -- Bluetooth Connected                                                                                         
+                                                                                       
        WHEN "0001" =>      
             next_char <= lcd_display_string_02(CONV_INTEGER(char_count));
-            
-            -- CHARGING %25
+
        WHEN "0010" =>      
             next_char <= lcd_display_string_03(CONV_INTEGER(char_count));            
-            
-            -- CHARGING %50                                                           
+                                                          
        WHEN "0011" =>      
             next_char <= lcd_display_string_04(CONV_INTEGER(char_count));                                                                                                                         
-        
-            -- CHARGING %75
+
        WHEN "0100"  =>      
-            next_char <= lcd_display_string_05(CONV_INTEGER(char_count));
-                
-            -- CHARGING %100        
+            next_char <= lcd_display_string_04(CONV_INTEGER(char_count));
+       
        WHEN "0101" =>
-           next_char <= lcd_display_string_06(CONV_INTEGER(char_count));
-              
-            -- Battery Level %25                                                                                           
+           next_char <= lcd_display_string_05(CONV_INTEGER(char_count));
+                                                                                           
        WHEN "0110" =>      
-           next_char <= lcd_display_string_07(CONV_INTEGER(char_count));
-            
-           -- Battery Level %50   
+           next_char <= lcd_display_string_06(CONV_INTEGER(char_count));
+ 
        WHEN "0111" =>      
-           next_char <= lcd_display_string_08(CONV_INTEGER(char_count)); 
-                            
-           -- Battery Level %75      
+           next_char <= lcd_display_string_07(CONV_INTEGER(char_count)); 
+    
        WHEN "1000" =>      
-           next_char <= lcd_display_string_09(CONV_INTEGER(char_count));
-                   
-           -- Battery Level %100  
+           next_char <= lcd_display_string_08(CONV_INTEGER(char_count));
+ 
        WHEN "1001" =>      
-           next_char <= lcd_display_string_10(CONV_INTEGER(char_count));         
-                                                                                                                              
-                 --  BLUETOOTH CONTROLLER                                                                 
-            WHEN OTHERS =>              
-               next_char <= lcd_display_string_11(CONV_INTEGER(char_count));
+           next_char <= lcd_display_string_09(CONV_INTEGER(char_count));         
+                                                                                                                                                                                            
+       WHEN OTHERS =>              
+           next_char <= lcd_display_string_10(CONV_INTEGER(char_count));
                                                      
        END CASE;
 END PROCESS;
    
-
- 
-  
-  
-  
 --======================= CLOCK SIGNALS ============================--  
 process(clock_50)
 begin
@@ -553,19 +465,14 @@ begin
     
     
         elsif rising_edge(clock_50) then
-             if clk_400hz_enable = '1' then  
-                 
-                 
-                 
+             if clk_400hz_enable = '1' then
               --========================================================--                 
               -- State Machine to send commands and data to LCD DISPLAY
               --========================================================--
                  case state is
                  -- Set Function to 8-bit transfer and 2 line display with 5x8 Font size
                  -- see Hitachi HD44780 family data sheet for LCD command and timing details
-                       
-                       
-                       
+ 
 --======================= INITIALIZATION START ============================--
                        when reset1 =>
                             lcd_e <= '1';
@@ -583,7 +490,6 @@ begin
                             data_bus_value <= x"38"; -- EXTERNAL RESET
                             state <= drop_lcd_e;
                             next_command <= reset3;
-                            
                        when reset3 =>
                             lcd_e <= '1';
                             lcd_rs <= '0';
@@ -653,9 +559,6 @@ begin
                                 
 --======================= INITIALIZATION END ============================--                          
                           
-                          
-                          
-                          
 --=======================================================================--                           
 --               Write ASCII hex character Data to the LCD
 --=======================================================================--
@@ -665,25 +568,6 @@ begin
                             lcd_rs <= '1';
                             lcd_rw_int <= '0';
                           
-                          
-                               -- ASCII character to output
-                               -----------------------------
-                               -- Below we check to see if the Upper-Byte of the HEX number being displayed is x"0"....We use this number x"0" as a Control Variable, 
-                               -- to know when a certain condition is met.  Next, we proceed to process the "next_char" variable to Sequentially count up in HEX format.
-                               
-                               -- This is required because as you know...Counting in HEX...after #9 comes Letter A.... well if you look at the ASCII CHART, 
-                               -- the Letters A,B,C etc. are in a different COLUMN compared to the one the Decimal Numbers are in.  Letters A...F are in Column  x"4".    
-                               -- Numbers 0...9 are in Column x"3".  The Upper-Byte controls which COLUMN the Character will be selected from... and then Displayed on the LCD. 
-                               
-                               -- So to Count up seamlessly using our 4-Bit Variable 8,9,10,11 and so on...we need to set some IF THEN ELSE conditions 
-                               -- to control this changing of Columns so that it will be displayed counting up in HEX Format....8,9,A,B,C,D etc.
-                                
-                               -- Also, if the High-Byte is detected as an actual Character Column from the ASCII CHART that has Valid Characters 
-                               -- (Like using a Upper-Byte of x"2",x"3",x"4",x"5",x"6" or x"7") then it will just go ahead and decalre  "data_bus_value <= next_char;"  
-                               -- and the "Print_Sring" sequence will continue to execute. These HEX Counting conditions are only being applied to the Variables that have 
-                               -- the x"0" Upper-Byte value.....For our code that is the:  [x"0"&hex_display_data]  variable.  
-                               
-                               
                                if (next_char(7 downto 4) /= x"0") then
                                   data_bus_value <= next_char;
                                else
@@ -763,7 +647,7 @@ begin
                             lcd_e <= '0';
                             lcd_blon <= '1';
                             lcd_on   <= '1';
-                        end case;
+                      end case;
 
 
 
